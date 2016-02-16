@@ -1,9 +1,22 @@
 @import url(http://fonts.googleapis.com/css?family=Nunito);
 
+@font-face {
+    font-family: HelveticaNeue;
+    src: url(Fonts/HelveticaNeue.ttf);
+}
+
+
+/*/////////////////////////////////PARALLAX//////////////////////////////////////////*/
+
 html {
   height: 100%;
   overflow: hidden;
 }
+
+a {
+  text-decoration: none
+}
+
 
 body {
   margin:0;
@@ -14,8 +27,7 @@ body {
   overflow-y: scroll;
   overflow-x: hidden;
   font-family: Nunito;
-  font-family: 'Raleway', sans-serif;
-
+  font-family: /*'HelveticaNeue',*/'Raleway', sans-serif;
 }
 
 h1 {
@@ -63,8 +75,6 @@ p {
 
 
 img {
-  position: absolute;
-  top: 50%;
   left: 35%;
   width: 320px;
   height: 240px;
@@ -73,10 +83,11 @@ img {
   border-radius: 5px;
   background: rgba(240,230,220, .7);
   box-shadow: 0 0 3px rgba(0, 0, 0, .7);
+  top: 50%;
+  position: absolute;
 }
 
 img:last-of-type {
-  transform: translateZ(.4px) scale(.6) translateX(-104%) translateY(-40%) ;
 }
 
 .slide:before {
@@ -114,6 +125,7 @@ img:last-of-type {
   text-align: center;
   font-size: 175%;
   color: #fff;
+  z-index:-1;
   text-shadow: 0 2px 2px #000;
 }
 
@@ -145,3 +157,96 @@ height: 700px;
   background-image: url("../images/villa.jpg");
   background-attachment: fixed;
 }
+
+
+/*/////////////////////////////////////////////////////////////*/
+
+
+.header h1 {
+  font-size:330%;
+  margin-top:30vh;
+  margin-bottom:0;
+  padding:0;
+  font-weight:400;
+}
+
+.header h4 {
+  margin:20px 0 0 250px;
+
+}
+
+nav {
+  height:60px;
+  background-color: black;
+  position:fixed;
+  z-index:1;
+  width:100%;
+  top:0;
+  left:0;
+}
+
+#nav-img-1 {
+  width:40px;
+  z-index:22;
+  height:40px;
+  transform:none;
+  position:relative;
+  top:6px;
+  left:5px;
+  background:none;
+}
+
+#nav-img-2 {
+  width:200px;
+  z-index:22;
+  height:33px;
+  transform:none;
+  position:relative;
+  top:7px;
+  left:340%;
+  background:none;
+  box-shadow:none;
+}
+
+nav * {
+  z-index: 1;
+  color:white;
+  display:inline-block;
+}
+
+#flag {
+  width:35px;
+  height:20px;
+  position:relative;
+  top:20px;
+  left:25px;
+  padding:0;
+  margin:0;
+}
+
+.right-nav {  
+  position:absolute;
+  right:10px;
+  margin-right:10px;
+  top:5px;
+}
+
+.right-nav *{
+  margin-right:10px;
+  font-size: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
