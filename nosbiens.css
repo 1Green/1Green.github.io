@@ -1,0 +1,21 @@
+aside {
+	background-color: black;
+	width: 20%;
+	height: 90vh;
+	color: white;
+	font-size: 20px;
+	padding: 20px 30px;
+	border-radius: 8px;
+}
+
+form  {
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 30px;
+}
+
+.locations form input {
+	padding: 6px 10px;
+	border-radius: 6px;
+	margin-top: 18px;
+}
