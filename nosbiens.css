@@ -1,6 +1,4 @@
 @import url(footer.css);
-@import url(navbar.css);
-
 
 body {
 	margin:0;
@@ -29,14 +27,13 @@ form  {
 
 .droite {
 	background-color: blue;
-
+	width: 100%;
 
 }
-main.droite-haut {
-	width: 80%;
+.droite-haut {
 	display: flex;
+	margin: 50px 30px;
 	justify-content: space-around;
-	margin: 0;
 
 }
 
@@ -47,15 +44,12 @@ main.droite-haut {
 .card-1 {
 	background-color: white;
 }
-.card-2 {	background-color: pink;
+.card-2 {
+	background-color: pink;
 }
 
 
 img {
 	height: 50vh;
 
-}
-
-.droite-haut p {
-	font-family: 'Montserrat';
 }
