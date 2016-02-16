@@ -118,7 +118,7 @@ img:last-of-type {
 }
 
 #title {
-  background-image: url("Grandes/001-DSCF1480-2013-2.jpg");
+  background-image: url("images/001-DSCF1480-2013-2.jpg");
    background-attachment: fixed;
 }
 
@@ -130,7 +130,7 @@ height: 700px;
 }
 
 #slide2 {
-  background-image: url("Grandes/tom-cruise-villa-hd.jpg");
+  background-image: url("images/tom-cruise-villa-hd.jpg");
   background-attachment: fixed;
 }
 
@@ -142,6 +142,6 @@ height: 700px;
 
 
 #slide4 {
-  background-image: url("Grandes/villa.jpg");
+  background-image: url("images/villa.jpg");
   background-attachment: fixed;
 }
