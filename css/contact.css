@@ -1,0 +1,142 @@
+html {
+	height: 100%;
+
+}
+
+body {
+	margin:0;
+	padding:0;
+	font-family: "Raleway", sans serif;
+
+}
+
+.sectionbackground {
+	/*background-color:#282828;*/
+	color:#ecf0f1;
+}
+
+/*Cards Agences*/
+
+.cards {
+	padding-top: 200px;
+
+}
+
+
+
+.cards-line {
+	display: flex;
+	margin-bottom: 10px;
+	justify-content: center;
+
+
+}
+
+.cardcontact {
+width: 250px;
+height: 250px;
+border: 3px solid black;
+border-radius: 20px;
+text-align: center;
+margin-right: 30px;
+background-color:#ecf0f1;
+color:#4f5051;
+margin-bottom: 20px;
+}
+
+.cardcontact a {
+	text-decoration: none;
+	color:black;
+}
+
+.num {
+	font-size: 25px;
+
+}
+
+/*Formulaire de contact*/
+
+
+.form-contain {
+margin-top: 300px;
+display:flex;
+justify-content: center;
+padding-bottom: 200px;
+
+
+}
+
+
+
+.form {
+	width:500px;
+	height:500px;
+	text-align:center;
+	margin-right: 50%;
+	margin-left: 50%;
+	border:4px solid rgba(42, 40, 43, 0.6);
+	border-radius: 20px;
+	padding:30px;
+	background-color: rgba(42, 40, 43, 0.6);
+	color:#4f5051;
+
+}
+
+
+	
+
+
+
+
+.menuderoulant {
+	margin-bottom: 30px;
+}
+
+#user, #comments, #adress, #postalcode, #city, #mail, #phone{
+	border-radius: 9px;
+
+}
+
+#user {
+	width:470px;
+	height: 30px;
+
+}
+
+.postaldiv input {
+width: 31.4%;
+}
+
+.numerodiv input {
+	width: 48%;
+}
+
+#comments {
+	width: 470px;
+	height:150px;
+	text-align:center;
+}
+
+input {
+	margin-bottom: 10px;
+	width: 150px;
+	height: 20px;
+	font-family: "Raleway", sans serif;
+
+}
+
+
+#send {
+	width: 150px;
+	height: 50px;
+	font-family: "Raleway", sans serif;
+	border-radius:10px;
+	padding:5px;
+	text-align: center;
+	font-weight: bolder;
+	font-family: "Raleway" sans serif;
+	font-size:20px;
+
+}
+
+
