@@ -24,6 +24,38 @@ header {
   display: flex;
 }
 
+.paris:focus ~ .prez {
+  display: none;
+}
+.limoges:focus ~ .prez {
+  display: none;
+}
+
+.bordeaux:focus ~ .prez {
+  display: none;
+}
+.nice:focus ~ .prez {
+  display: none;
+}
+
+
+.prez {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 140px;
+}
+
+.prez p:first-child {
+  font-size: 1.5em;
+  padding: 20px;
+}
+
+.prez p:last-child {
+  text-align: center;
+  font-style: italic;
+}
 
 main {
   width: 80%;
