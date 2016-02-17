@@ -8,15 +8,16 @@ body {
 }
 
 .gauche {
+		background-color: black;
+			min-height: 130vh;
+
 
 }
 
 aside {
-	background-color: black;
 	min-width: 20%;
-	min-height: 190vh;
 	color: white;
-	padding: 20px 30px;
+	padding: 80px 30px;
 }
 
 #nosbiens {
@@ -37,23 +38,22 @@ form  {
 
 .droite {
 	width: 100%;
-	padding: 15px 0;
-
+	padding: 50px 10px;
 }
+
 .droite-haut {
 	width: 100%;
 	display: flex;
-	justify-content: space-around;
 	flex-wrap: wrap;
-	align-items: flex-start;
-
-
+	justify-content: center;
+	
 }
 
 
 .card-1, .card-2, .card-3, .card-4, .card-5, .card-6{
 	background-color: white;
 	width: 400px;
+	margin: 25px 25px;
 
 }
 
@@ -78,4 +78,11 @@ form  {
 h2, h4 {
 	margin:0;
 	padding: 5px; 0
+}
+
+@media screen and (max-width: 768px){
+	aside {
+		height: 180vh;
+	}
+
 }
