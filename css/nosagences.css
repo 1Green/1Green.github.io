@@ -141,6 +141,7 @@ main a {
 .agence {
   background-image: url(../images/bureau2.jpg);
   background-size: cover;
+  background-position: center;
   width: 87%;
   height: 300px;
 }
@@ -153,12 +154,14 @@ main a {
 }
 .agence2 {
   background-image: url(../images/bureau1.jpg);
+  background-position: center;
   background-size: cover;
   width: 87%;
   height: 300px;
 }
 .agence3 {
   background-image: url(../images/bureau3.jpeg);
+  background-position: center;
   background-size: cover;
   width: 87%;
   height: 300px;
@@ -173,6 +176,7 @@ main a {
 
 .agence4 {
   background-image: url(../images/bureau4.jpeg);
+  background-position: center;
   background-size: cover;
   width: 87%;
   height: 300px;
