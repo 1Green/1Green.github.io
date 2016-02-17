@@ -142,14 +142,12 @@ h2, h4 {
 	}
 }
 
-@media screen and (max-width: 360px){
+@media screen and (max-width: 450px){
 	#nosbiens {
 		display: flex;
 		flex-direction: column;
 	}
-	body {
-		width: 358px;
-	}
+
 	aside h2 {
 		font-size: 20px;
 	}
