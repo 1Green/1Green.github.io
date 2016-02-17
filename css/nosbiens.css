@@ -1,18 +1,81 @@
+@import url(footer.css);
+@import url(navbar.css);
+
+
+body {
+	margin:0;
+	font-family: 'Raleway', sans-serif;
+}
+
+.gauche {
+
+}
+
 aside {
 	background-color: black;
-	width: 20%;
-	height: 100vh;
+	min-width: 20%;
+	min-height: 190vh;
 	color: white;
-	font-size: 25px;
+	padding: 20px 30px;
 }
 
-ul li a {
-	text-decoration: none;
-	color: white;
-	font-size: 20px;
+#nosbiens {
+	display: flex;
+}
+
+form  {
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 30px;
+}
+
+.locations form input {
+	padding: 6px 10px;
+	border-radius: 6px;
+	margin-top: 10px;
+}
+
+.droite {
+	width: 100%;
+	padding: 15px 0;
+
+}
+.droite-haut {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	align-items: flex-start;
+
 
 }
 
-ul li {
-		list-style-type: none;
+
+.card-1, .card-2, .card-3, .card-4, .card-5, .card-6{
+	background-color: white;
+	width: 400px;
+
+}
+
+.prix{
+	width: 400px;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+
+.droite-haut img {
+	width: 400px;
+
+}
+
+.droite-haut img:hover { 
+	opacity: 0.7; 
+	filter: alpha(opacity=30); 
+}
+
+h2, h4 {
+	margin:0;
+	padding: 5px; 0
 }

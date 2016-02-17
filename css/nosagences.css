@@ -1,0 +1,218 @@
+body {
+  font-family: 'Raleway', sans-serif;
+}
+header {
+  height: 50px;
+  background-color: black;
+}
+aside {
+  width: 20%;
+  height: 830px;
+  background-color: black;
+}
+main {
+  width: 80%;
+  margin-top: 23px;
+}
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.agence {
+  background-image: url(../images/bureau2.jpg);
+  background-size: cover;
+  width: 87%;
+  height: 300px;
+}
+.descript {
+  width: 87%;
+  color: rgb(31, 31, 31);
+  font-size: 0.9em;
+}
+.descript p:first-child {
+  font-size: 1.5em;
+  text-align: center;
+}
+.descript p:last-child {}
+.txt {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+}
+.tot {
+  display: flex;
+}
+.left {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.left i {
+  margin-right: 30px;
+  font-size: 1.4em;
+}
+.left p {
+  border: 1px solid rgb(204, 204, 204);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  color: rgb(55, 55, 55);
+  height: 40px;
+  font-size: 0.9em;
+  flex-grow: 1;
+  text-align: center;
+}
+.left a {
+  border: 1px solid rgb(204, 204, 204);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  color: rgb(55, 55, 55);
+  text-decoration: none;
+  height: 40px;
+  font-size: 0.9em;
+  flex-grow: 1;
+  line-height: 3em;
+}
+.middle {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.middle i {
+  font-size: 1.4em;
+  margin-right: 14px;
+}
+.map {
+  display: flex;
+  justify-content: center;
+}
+#map_canvas {
+  width: 97.3%;
+  height: 200px
+}
+.middle a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  color: rgb(55, 55, 55);
+  text-decoration: none;
+  height: 40px;
+  font-size: 0.9em;
+  flex-grow: 1;
+  min-width: 238px;
+}
+.middle a:first-child {
+  background-color: rgb(208, 202, 202);
+  color: rgb(70, 70, 70);
+  transition: all 0.2s ease-in-out;
+  border: 1px solid white;
+}
+.middle a:last-child {
+  background-color: rgb(208, 202, 202);
+  color: rgb(70, 70, 70);
+  transition: all 0.2s ease-in-out;
+  border: 1px solid white;
+}
+.middle a:first-child:hover {
+  background-color: white;
+  border: 1px solid rgb(189, 186, 186);
+  transition: all 0.5s ease-in-out;
+}
+.middle a:last-child:hover {
+  background-color: white;
+  border: 1px solid rgb(189, 186, 186);
+  transition: all 0.5s ease-in-out;
+}
+
+footer {
+  background-color: black;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Raleway', sans-serif;
+}
+.rubrique {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  font-weight: bolder;
+  flex-wrap: wrap;
+}
+.rubrique a {
+  text-decoration: none;
+  color: rgb(163, 161, 161);
+  margin: 30px;
+  transition: 0.4s;
+}
+.rubrique a:hover {
+  color: rgb(82, 82, 82);
+}
+.link {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  border-top: 1px solid rgb(84, 83, 83);
+  width: 70%;
+  height: 80px;
+  text-align: center;
+}
+.link h4 {
+  margin: 20px;
+}
+.icone {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+}
+.link a {
+  text-decoration: none;
+}
+.icone i:hover {
+  color: rgb(198, 190, 190);
+}
+.icone i {
+  padding: 20px;
+  border: 1px solid rgb(84, 83, 83);
+  border-radius: 50% 50%;
+  width: 0.3px;
+  height: 0.3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(111, 108, 108);
+  transition: 0.3s;
+}
+.inc p {
+  margin: 20px;
+  font-size: 0.7em;
+  color: rgb(108, 106, 106);
+}
+
+@media screen and (max-width: 360px){
+  .rubrique {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+    font-weight: bolder;
+    flex-wrap: wrap;
+  }
+  .rubrique a {
+    text-decoration: none;
+    color: rgb(163, 161, 161);
+    margin: 10px;
+    transition: 0.4s;
+  }
+}

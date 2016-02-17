@@ -3,7 +3,6 @@ a {text-decoration: none;}
 nav {
   height:60px;
   background-color: black;
-  position:fixed;
   z-index:1;
   width:100%;
   top:0;
@@ -43,7 +42,7 @@ nav * {
   width:35px;
   height:20px;
   position:relative;
-  padding:0;
+  top:6px;
   margin:0;
 }
 
