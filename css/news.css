@@ -5,9 +5,7 @@
   padding: 0;
   margin: 0;
 }
-body {
-  font-family: 'Raleway', sans-serif;
-}
+
 body {
   margin: 0;
   font-family: 'Raleway', sans-serif;
@@ -61,11 +59,12 @@ form {
   margin-bottom: 5px;
 }
 
-.card-1, .card-2, .card-3, .card-4, .card-5, .card-6{
+.card-1, .card-2, .card-3{
 	background-color: white;
 	width: 300px;
 	margin-left:  20px;
   margin-top: 20px;
+  flex-grow: 1;
 
 }
 
@@ -95,6 +94,32 @@ form {
 
 }
 
+.cord {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.abonnez {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.abonnez h1 {
+  font-size: 1.9em;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.abonnez p {
+text-align: center; 
+}
+
+.droite {
+  display: flex;
+  flex-direction: column;
+}
+
 .hover-img-1 {
 	background-image: url('../images/p.jpg');
 }
@@ -120,9 +145,38 @@ font-size: 1.3em;
   font-style: italic;
 }
 
-.mag {
-  
+#nosbiens {
+  display: flex;
 }
+
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.mag {
+  background-image: url(../images/magazine.jpg);
+  background-size: cover;
+  width: 300px;
+  height: 400px;
+}
+
+.magazine {
+  margin-top: 70px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.border {
+padding-top: 70px;
+width: 50%;
+  border-bottom: 1px solid rgb(138, 138, 138);
+  margin: auto;
+}
+
 
 
 .droite-haut img {
