@@ -139,7 +139,7 @@ nav * {
 
 
 
-.pop-up-menu img {
+.pop-up-menu img#img-menu {
   width: 100%;
   height: 350px;
   transform:none;
@@ -149,8 +149,6 @@ nav * {
   box-shadow: none;
   top:0;
   position: static;
-
-  
 }
 
 #nav-img-1:focus ~ .pop-up-menu h3:hover {
@@ -183,7 +181,7 @@ p {line-height: 150%;
   width:30%;
 }
 
-.pop-up-menu img {
+.pop-up-menu img#img-menu  {
     width:100%;
     height:30%;
     padding:0;
@@ -205,7 +203,7 @@ p {line-height: 150%;
   width:30%;
 }
 
-.pop-up-menu img {
+.pop-up-menu img#img-menu  {
     width:100%;
     height:30%;
     padding:0;
