@@ -1,11 +1,155 @@
 @import url(http://fonts.googleapis.com/css?family=Nunito);
 @import url(navbar.css);
-
-
+@import url(footer.css);
 * {
   padding: 0;
   margin: 0;
 }
 body {
   font-family: 'Raleway', sans-serif;
+}
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+}
+.gauche {
+  background-color: black;
+  min-height: 130vh;
+}
+aside {
+  min-width: 20%;
+  color: white;
+  padding: 80px 30px;
+}
+#nosbiens {
+  display: flex;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 30px;
+}
+.locations form input {
+  padding: 6px 0;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+.button1 button {
+  padding: 9px;
+  font: bold 13px;
+  background: #f5f5f5;
+  color: #555;
+  margin: 10px;
+  border-radius: 2px;
+  width: 200px;
+  border: 1px solid #ccc;
+}
+.button1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.actu {
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+.actu a {
+  color: white;
+  margin-bottom: 5px;
+}
+
+.card-1, .card-2, .card-3, .card-4, .card-5, .card-6{
+	background-color: white;
+	width: 300px;
+	margin-left:  20px;
+  margin-top: 20px;
+
+}
+
+
+.prix{
+	width: 300px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.hover-img {
+	z-index: 3;
+	width: 300px;
+	height: 267px;
+	background-size: cover;
+	display: flex;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	transition: all 0s ease-in-out;
+}
+.hover-img:hover {
+		background-color: rgba(0,0,0,0.4);
+	background-blend-mode: darken;
+		transition: all 0.2s ease-in-out;
+
+
+}
+
+.hover-img-1 {
+	background-image: url('../images/p.jpg');
+}
+.hover-img-2 {
+	background-image: url('../images/ph.jpg');
+}.hover-img-3 {
+	background-image: url('../images/pho.jpg');
+}.hover-img-4 {
+	background-image: url('../images/chateau.jpg');
+}.hover-img-5 {
+	background-image: url('../images/summer.jpg');
+}.hover-img-6 {
+	background-image: url('../images/tom-cruise-villa-hd.jpg');
+}
+
+#nosbiens h2 {
+	margin:7px 0px;
+font-size: 1.3em;
+}
+
+#nosbiens h4 {
+	margin:7px 0px;
+  font-style: italic;
+}
+
+.mag {
+  
+}
+
+
+.droite-haut img {
+	width: 300px;
+
+}
+
+.hover-img p {
+	display: none;
+	margin: auto;
+
+}
+
+.hover-img:hover p {
+	display: block;
+	transition: all 0.2s ease-in-out;
+
+}
+
+/*.droite-haut img:hover {
+	opacity: 0.7;
+	filter: alpha(opacity=30);
+}*/
+
+
+.lien {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
 }
