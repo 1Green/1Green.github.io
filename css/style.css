@@ -57,7 +57,7 @@ p {
   transform: translateZ(.25px) scale(.75) translateX(-94%) translateY(-100%) rotate(0deg);
   padding: 2px;
   border-radius: 3px;
-background: linear-gradient(45deg, rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%);
+background: linear-gradient(45deg, rgba(61,61,61,1) 0%,rgba(14,14,14,1) 100%);
   box-shadow: 0 0 8px rgba(0, 0, 0, .7);
 }
 
@@ -74,7 +74,7 @@ background: linear-gradient(45deg, rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%)
   transform: translateZ(.25px) scale(.75) translateX(-94%) translateY(-100%) rotate(0deg);
   padding: 2px;
   border-radius: 3px;
-background: linear-gradient(45deg, rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%);
+background: linear-gradient(45deg, rgba(61,61,61,1) 0%,rgba(14,14,14,1) 100%);
   box-shadow: 0 0 8px rgba(0, 0, 0, .7);
 }
 
@@ -95,8 +95,13 @@ background: linear-gradient(45deg, rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%)
   width: 50%;
   padding: 5%;
   border-radius: 5px;
-  background: rgba(240,230,220, .7);
+  background: rgba(0,0,0, .7);
   box-shadow: 0 0 8px rgba(0, 0, 0, .7);
+  color:#EEE;
+}
+
+.title p {
+  color:#AAA;
 }
 
 .slide:nth-child(2n) .title {
