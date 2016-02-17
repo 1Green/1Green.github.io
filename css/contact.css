@@ -13,130 +13,162 @@ body {
 .sectionbackground {
 	/*background-color:#282828;*/
 	color:#ecf0f1;
+	display:flex;
 }
 
 /*Cards Agences*/
 
-.cards {
-	padding-top: 200px;
+	.cards {
+		padding-top: 200px;
 
-}
-
-
-
-.cards-line {
-	display: flex;
-	margin-bottom: 10px;
-	justify-content: center;
+	}
 
 
-}
 
-.cardcontact {
-width: 250px;
-height: 250px;
-border: 3px solid black;
-border-radius: 20px;
-text-align: center;
-margin-right: 30px;
-background-color:#ecf0f1;
-color:#4f5051;
-margin-bottom: 20px;
-}
+	.cards-line {
+		display: flex;
+		margin-bottom: 10px;
+		margin-left: 50px;
+		
 
-.cardcontact a {
-	text-decoration: none;
-	color:black;
-}
+	}
 
-.num {
-	font-size: 25px;
+	.cardcontact {
+	width: 250px;
+	height: 250px;
+	border: 3px solid #464646ff;
+	border-radius: 20px;
+	text-align: center;
+	margin-right: 30px;
+	background-color:#ecf0f1;
+	color:#4f5051;
+	margin-bottom: 20px;
+	}
 
-}
+	.cardcontact a {
+		text-decoration: none;
+		color:black;
+	}
+
+	.num {
+		font-size: 25px;
+
+	}
 
 /*Formulaire de contact*/
 
 
-.form-contain {
-margin-top: 300px;
-display:flex;
-justify-content: center;
-padding-bottom: 200px;
+
+	.form-contain {
+		padding-top: 130px;
+	/*margin-top: 300px;
+	display:flex;
+	justify-content: center;
+	/*padding-bottom: 200px;*/
+	}
 
 
-}
 
-
-
-.form {
-	width:500px;
-	height:500px;
-	text-align:center;
-	margin-right: 50%;
-	margin-left: 50%;
-	border:4px solid rgba(42, 40, 43, 0.6);
-	border-radius: 20px;
-	padding:30px;
-	background-color: rgba(42, 40, 43, 0.6);
-	color:#4f5051;
-
-}
-
+	.form {
+		width:500px;
+		height:500px;
+		text-align:center;
+		border-radius: 20px;
+		padding:30px;
+		color:#4f5051;
+	
+	}
 
 	
 
+	.menuderoulant {
+		margin-bottom: 30px;
+	}
 
 
+	.select-wrapper { 
+		display:block; 
+		overflow-x:hidden; 
+		border:1px solid #ccc; 
+		border-radius:3px; 
+		padding:5px; 
+		cursor:pointer; 
+		border-radius: 9px;
+		font-family: "Raleway" sans serif;
+		margin-top: 10px;
+	}
 
-.menuderoulant {
-	margin-bottom: 30px;
-}
+	.select-wrapper select { border:0; 
+		min-width:130%; 
+		cursor:pointer;}
 
-#user, #comments, #adress, #postalcode, #city, #mail, #phone{
-	border-radius: 9px;
+	.select-wrapper:after { 
+		display:block; 
+	 	position:relative; 
+	 	float:right; 
+	 	top:-25px; 
+	 	right:-5px; 
+	 	background-color:#fff; 
+	 	width:32px; 
+	 	text-align:center;
+		margin-bottom:-25px;
 
-}
+	}
 
-#user {
-	width:470px;
+
+	#user, #comments, #adress, #postalcode, #city, #mail, #phone
+	{
+		border-radius: 9px;
+
+	}
+
+	#user {
+		width:490px;
+		height: 30px;
+
+	}
+
+	.postaldiv input {
+	width: 31.4%;
 	height: 30px;
+	}
 
-}
+	.numerodiv input {
+		width: 48%;
+		height: 30px;
+	}
 
-.postaldiv input {
-width: 31.4%;
-}
+	#comments {
+		width: 490px;
+		height:150px;
+		text-align: center;
 
-.numerodiv input {
-	width: 48%;
-}
+		
+	}
 
-#comments {
-	width: 470px;
-	height:150px;
-	text-align:center;
-}
+	input {
+		margin-bottom: 10px;
+		width: 150px;
+		height: 20px;
+		font-family: "Raleway", sans serif;
+		/*border:1px solid black;*/
 
-input {
-	margin-bottom: 10px;
-	width: 150px;
-	height: 20px;
-	font-family: "Raleway", sans serif;
-
-}
+	}
 
 
-#send {
-	width: 150px;
-	height: 50px;
-	font-family: "Raleway", sans serif;
-	border-radius:10px;
-	padding:5px;
-	text-align: center;
-	font-weight: bolder;
-	font-family: "Raleway" sans serif;
-	font-size:20px;
+	#send {
+		width: 150px;
+		height: 20px;
+		border-radius:10px;
+		text-align: center;
+		font-family: "Raleway" sans serif;
+		font-size:12px;
+		background-color: white;
 
-}
+	}
+
+/*	MEDIA QUERIES */
+
+
 
 
