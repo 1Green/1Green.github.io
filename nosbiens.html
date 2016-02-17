@@ -10,19 +10,34 @@
 	<title>Nos biens</title>
 </head>
 <body>
+
       <nav>
 
-      	<a href=""></a><img id="nav-img-1" src="images/menu-alt-512.png" alt="logo menu"></a>
-            <a href=""><img id="nav-img-2" src="images/key-logo-2.png" alt="small logo nav">
-            <div class="right-nav"></a>
-            <p><a href="#">Connexion</a></p>
-            <p><a href="#">Langue</a></p>
-            <img id="flag" src="images/frlarge.gif" alt="">
+            <img tabindex='2' id="nav-img-1" src="images/menu-alt-512.png" alt="logo menu">
+            <a href=""><img id="nav-img-2" src="images/key-logo-2.png" alt="small logo nav"></a>
+           
+            <div class="right-nav">
+                  <a href="#">Langue</a>
+                  <img id="flag" src="images/frlarge.gif" alt="">
+            </div>
+
+            <div class="pop-up-menu">        
+
+                      <a id="first-link-menu" href="nosagences.html"><h3>Nos agences</h3></a>
+                      <a href="nosbiens.html"><h3>Nos Biens</h3></a>
+                      <a href="contact.html"><h3>Contact</h3></a>
+                      <a href="actualites.html"><h3>Actualités</h3></a>
+                      <img src="images/full-logo.png" alt="full-logo">
+                      <p>Connexion :</p>
+                      <input type="text" placeholder="Pseudo ou Mail..">
+                      <input type="text" placeholder="Mot de passe..">
+                      
             </div>
                 
     
 
       </nav>
+
 	<div id="nosbiens">
 		<div class="gauche">
 	<aside>
@@ -75,14 +90,20 @@
 				<INPUT type="checkbox" name="choix4" value="4"> Jardin</div>
 
 		</form>
+			<div class="button1">
+			<button type="button" onclick="alert('REVENEZ RAPIDEMENT DE NOUVEAUX LOGEMENTS SERONT À DÉCOUVRIR =)')">OK</button>
+			</div>
 	</aside>
 	</div>
 	<div class="droite">
-	<main>
+
 	<div class="droite-haut">
 		<div class="card-1">
 		<a href="#">
-			<img src="images/IMG_6969.jpg">
+		<div class="hover-img hover-img-1">
+			<p class="hover-text">Plus d'information</p>
+		
+		</div>
 		</a>
 			<h2>Maison</h2>
 			<h4>CANNES</h4>
@@ -95,9 +116,12 @@
 			</div>
 		</div>
 		<div class="card-2">
-			<a href="#">
-			<img src="images/amrc.jpg">
-			</a>
+		<a href="#">
+		<div class="hover-img hover-img-2">
+			<p class="hover-text">Plus d'information</p>
+		
+		</div>
+		</a>
 			<h2>Appartement</h2>
 			<h4>PARIS 8E</h4>
 			<p>DIRECTEMENT SUR l'AVENUE MONTAIGNE : Sur l'une des Avenues les plus prisées et les plus luxueuses de Paris, un magnifique appartement de 4 pièces traversant en excellent état, au 5 ème...</p>
@@ -109,9 +133,12 @@
 		</div>
 		<div class="card-3">
 		<a href="#">
-			<img src="images/desert.jpg">
+		<div class="hover-img hover-img-3">
+			<p class="hover-text">Plus d'information</p>
+		
+		</div>
 		</a>
-			<h2>Maison avec piscine en bord de mer</h2>
+			<h2>Maison avec piscine</h2>
 			<h4>BANDOL</h4>
 			<p>Bandol propriété vue mer de plus de 300 m² habitables sur un magnifique terrain de 6100 m² arboré de diverses variétés de palmiers. Le rez-de-chaussée vous offre une spacieuse salle de...</p>
 			<hr>
@@ -123,7 +150,10 @@
 
 			<div class="card-4">
 		<a href="#">
-				<img src="images/montagne.jpg">
+		<div class="hover-img hover-img-4">
+			<p class="hover-text">Plus d'information</p>
+		
+		</div>
 		</a>
 				<h2>Château</h2>
 				<h4>BORDEAUX</h4>
@@ -131,15 +161,18 @@
 				<hr>
 			<div class="prix">
 				<p>prix</p>
-				<p> 2 220 000€</p>
+				<p> 32 490 000€</p>
 			</div>
 
 			</div>
 			<div class="card-5">
 		<a href="#">
-				<img src="images/summer.jpg">
+		<div class="hover-img hover-img-5">
+			<p class="hover-text">Plus d'information</p>
+		
+		</div>
 		</a>
-				<h2>Propriété avec piscine en bord de mer</h2>
+				<h2>Propriété avec piscine</h2>
 				<h4>BOUCHES-DU-RHÔNE</h4>
 				<p>Très belle vue mer dominant la baie de Cassis (180°). Dans quartier résidentiel, propriété de prestige construite en 2014, composée d'une vaste réception, 2 suites, bureau, chambres, salle-de-bain...</p>
 				<hr>
@@ -150,9 +183,12 @@
 			</div>
 			<div class="card-6">
 		<a href="#">
-				<img src="images/tom-cruise-villa-hd.jpg">
+		<div class="hover-img hover-img-6">
+			<p class="hover-text">Plus d'information</p>
+		
+		</div>
 		</a>
-				<h2>Chalet avec vue panoramique et terrasse</h2>
+				<h2>Chalet avec vue panoramique</h2>
 				<h4>CHAMONIX-MONT-BLANC</h4>
 				<p>Proche du golf, dans le quartier populaire des Tines à Chamonix, chalet récent construit selon les normes les plus strictes alliant artisanat, bois vieillis et design moderne novateur....</p>
 				<hr>
@@ -163,7 +199,7 @@
 			</div>
 
 	</div>
-	</main>
+
 	</div>
 	</div>
 
