@@ -1,0 +1,55 @@
+@import url(footer.css);
+
+body {
+	margin:0;
+}
+
+aside {
+	background-color: black;
+	min-width: 22%;
+	height: 80vh;
+	color: white;
+	font-size: 20px;
+	padding: 20px 30px;
+}
+
+form  {
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 30px;
+}
+
+.locations form input {
+	padding: 6px 10px;
+	border-radius: 6px;
+	margin-top: 18px;
+}
+
+.droite {
+	background-color: blue;
+	width: 100%;
+
+}
+.droite-haut {
+	display: flex;
+	margin: 50px 30px;
+	justify-content: space-around;
+
+}
+
+#nosbiens {
+	display: flex;
+}
+
+.card-1 {
+	background-color: white;
+}
+.card-2 {
+	background-color: pink;
+}
+
+
+img {
+	height: 50vh;
+
+}

@@ -1,3 +1,7 @@
+* {
+  padding: 0;
+  margin: 0;
+}
 body {
   font-family: 'Raleway', sans-serif;
 }
@@ -5,27 +9,95 @@ header {
   height: 50px;
   background-color: black;
 }
-aside {
-  width: 20%;
-  height: 830px;
-  background-color: black;
+
+.paris:focus ~ .container {
+  display: flex;
 }
+.limoges:focus ~ .container2 {
+  display: flex;
+}
+
+.bordeaux:focus ~ .container3 {
+  display: flex;
+}
+.nice:focus ~ .container4 {
+  display: flex;
+}
+
+
 main {
   width: 80%;
   margin-top: 23px;
 }
+main a {
+  text-decoration: none;
+  color: black;
+  padding-left: 59px;
+  padding-right: 59px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  height: 30px;
+  color: white;
+  background-color: rgb(69, 69, 69);
+
+}
 .container {
+  margin-top: 30px;
   width: 100%;
-  display: flex;
+  display: none;
   flex-direction: column;
   align-items: center;
 }
+
 .agence {
   background-image: url(../images/bureau2.jpg);
   background-size: cover;
   width: 87%;
   height: 300px;
 }
+.container2 {
+  margin-top: 30px;
+  width: 100%;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+}
+.agence2 {
+  background-image: url(../images/bureau1.jpg);
+  background-size: cover;
+  width: 87%;
+  height: 300px;
+}
+.agence3 {
+  background-image: url(../images/bureau3.jpeg);
+  background-size: cover;
+  width: 87%;
+  height: 300px;
+}
+.container3 {
+  margin-top: 30px;
+  width: 100%;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+}
+
+.agence4 {
+  background-image: url(../images/bureau4.jpeg);
+  background-size: cover;
+  width: 87%;
+  height: 300px;
+}
+.container4 {
+  margin-top: 30px;
+  width: 100%;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+}
+
+
 .descript {
   width: 87%;
   color: rgb(31, 31, 31);
@@ -33,6 +105,7 @@ main {
 }
 .descript p:first-child {
   font-size: 1.5em;
+  padding: 20px;
   text-align: center;
 }
 .descript p:last-child {}
@@ -44,6 +117,7 @@ main {
 }
 .tot {
   display: flex;
+  justify-content: center;
 }
 .left {
   display: flex;
@@ -66,6 +140,8 @@ main {
   font-size: 0.9em;
   flex-grow: 1;
   text-align: center;
+  padding:15px 0px;
+
 }
 .left a {
   border: 1px solid rgb(204, 204, 204);
@@ -78,7 +154,8 @@ main {
   height: 40px;
   font-size: 0.9em;
   flex-grow: 1;
-  line-height: 3em;
+  padding:15px 0px;
+color: white;
 }
 .middle {
   display: flex;
@@ -94,10 +171,15 @@ main {
   display: flex;
   justify-content: center;
 }
-#map_canvas {
+.map_canvas {
   width: 97.3%;
   height: 200px
 }
+
+.map_canvas a {
+  background-color: white;
+}
+
 .middle a {
   display: flex;
   align-items: center;
@@ -109,6 +191,8 @@ main {
   font-size: 0.9em;
   flex-grow: 1;
   min-width: 238px;
+  padding:15px 0px;
+
 }
 .middle a:first-child {
   background-color: rgb(208, 202, 202);
@@ -132,7 +216,6 @@ main {
   border: 1px solid rgb(189, 186, 186);
   transition: all 0.5s ease-in-out;
 }
-
 footer {
   background-color: black;
   width: 100%;
@@ -198,8 +281,7 @@ footer {
   font-size: 0.7em;
   color: rgb(108, 106, 106);
 }
-
-@media screen and (max-width: 360px){
+@media screen and (max-width: 360px) {
   .rubrique {
     display: flex;
     justify-content: center;
