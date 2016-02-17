@@ -195,10 +195,6 @@ height: 700px;
 		font-size:230%;
 } 
 
-#nav-img-2 {
-	display:none;
-}
-
 }
 
 @media screen and (max-width:410px) {
