@@ -20,7 +20,6 @@ header {
 }
 .limoges:focus ~ .container2 {
   display: flex;
-<<<<<<< HEAD
 }
 
 .bordeaux:focus ~ .container3 {
@@ -33,20 +32,6 @@ header {
 .paris:focus ~ .prez {
   display: none;
 }
-=======
-}
-
-.bordeaux:focus ~ .container3 {
-  display: flex;
-}
-.nice:focus ~ .container4 {
-  display: flex;
-}
-
-.paris:focus ~ .prez {
-  display: none;
-}
->>>>>>> 1c52fa75c2273f92a9a93dc71ef8ce311c9e7f2c
 .limoges:focus ~ .prez {
   display: none;
 }
@@ -60,11 +45,6 @@ header {
 
 
 
-<<<<<<< HEAD
-
-
-=======
->>>>>>> 1c52fa75c2273f92a9a93dc71ef8ce311c9e7f2c
 .prez {
   display: flex;
   flex-direction: column;
@@ -137,16 +117,10 @@ text-align: center;
 
 main {
   width: 97.5%;
-<<<<<<< HEAD
-  min-height:660px;
-  margin-top: 23px;
-  display:flex;
-=======
   min-height:65vh;
   margin-top: 23px;
   display:flex;
   margin-bottom:30px;
->>>>>>> 1c52fa75c2273f92a9a93dc71ef8ce311c9e7f2c
 }
 
 main a {
@@ -167,7 +141,6 @@ main a {
 .agence {
   background-image: url(../images/bureau2.jpg);
   background-size: cover;
-  background-position: center;
   width: 87%;
   height: 300px;
 }
@@ -180,14 +153,12 @@ main a {
 }
 .agence2 {
   background-image: url(../images/bureau1.jpg);
-  background-position: center;
   background-size: cover;
   width: 87%;
   height: 300px;
 }
 .agence3 {
   background-image: url(../images/bureau3.jpeg);
-  background-position: center;
   background-size: cover;
   width: 87%;
   height: 300px;
@@ -202,7 +173,6 @@ main a {
 
 .agence4 {
   background-image: url(../images/bureau4.jpeg);
-  background-position: center;
   background-size: cover;
   width: 87%;
   height: 300px;
@@ -399,8 +369,6 @@ footer {
   font-size: 0.7em;
   color: rgb(108, 106, 106);
 }
-<<<<<<< HEAD
-=======
 
 a.tab-btn:focus {
   outline:none;
@@ -412,7 +380,6 @@ a.tab-btn:focus {
 
 
 
->>>>>>> 1c52fa75c2273f92a9a93dc71ef8ce311c9e7f2c
 @media screen and (max-width: 360px) {
   .rubrique {
     display: flex;
