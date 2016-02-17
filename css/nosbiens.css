@@ -72,17 +72,61 @@ form  {
 	justify-content: space-between;
 }
 
+.hover-img {
+	z-index: 3;
+	width: 400px;
+	height: 267px;
+	background-size: cover;
+	display: flex;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	transition: all 0s ease-in-out;
+}
+.hover-img:hover {
+		background-color: rgba(0,0,0,0.4);
+	background-blend-mode: darken;
+		transition: all 0.2s ease-in-out;
 
+
+}
+
+.hover-img-1 {
+	background-image: url('../images/IMG_6969.jpg');
+}
+.hover-img-2 {
+	background-image: url('../images/amrc.jpg');
+}.hover-img-3 {
+	background-image: url('../images/desert.jpg');
+}.hover-img-4 {
+	background-image: url('../images/chateau.jpg');
+}.hover-img-5 {
+	background-image: url('../images/summer.jpg');
+}.hover-img-6 {
+	background-image: url('../images/tom-cruise-villa-hd.jpg');
+}
 
 .droite-haut img {
 	width: 400px;
 
 }
 
-.droite-haut img:hover { 
+.hover-img p {
+	display: none;
+	margin: auto;
+
+}
+
+.hover-img:hover p {
+	display: block;
+	transition: all 0.2s ease-in-out;
+	
+}
+
+/*.droite-haut img:hover { 
 	opacity: 0.7; 
 	filter: alpha(opacity=30); 
-}
+}*/
 
 h2, h4 {
 	margin:0;
