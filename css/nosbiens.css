@@ -137,19 +137,14 @@ h2, h4 {
 	aside {
 		height: 180vh;
 	}
-	#nav-img-2 {
-		display: none;
-	}
 }
 
-@media screen and (max-width: 360px){
+@media screen and (max-width: 450px){
 	#nosbiens {
 		display: flex;
 		flex-direction: column;
 	}
-	body {
-		width: 358px;
-	}
+
 	aside h2 {
 		font-size: 20px;
 	}
@@ -174,9 +169,6 @@ h2, h4 {
 	.droite {
 	margin: 0;
 	padding: 0;
-	}
-	#nav-img-2 {
-		display: none;
 	}
 	.button1 button {
 		width: 100%;
