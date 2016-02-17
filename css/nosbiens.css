@@ -1,5 +1,6 @@
-@import url(footer.css);
 @import url(navbar.css);
+@import url(footer.css);
+
 
 
 body {
@@ -146,6 +147,12 @@ h2, h4 {
 	aside {
 		height: 180vh;
 	}
+<<<<<<< HEAD
+	#nav-img-2 {
+		display: none;
+	}
+=======
+>>>>>>> 1c52fa75c2273f92a9a93dc71ef8ce311c9e7f2c
 }
 
 
@@ -222,6 +229,12 @@ h2, h4 {
 	display: flex;
 	justify-content: center;
 	}
+<<<<<<< HEAD
+	#nav-img-2 {
+		display: none;
+	}
+=======
+>>>>>>> 1c52fa75c2273f92a9a93dc71ef8ce311c9e7f2c
 	.button1 button {
 		width: 100%;
 	}

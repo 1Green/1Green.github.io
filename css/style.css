@@ -1,5 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Nunito);
 @import url(navbar.css);
+@import url(footer.css);
 
 
 @font-face {
@@ -10,30 +11,25 @@
 
 /*/////////////////////////////////PARALLAX//////////////////////////////////////////*/
 
+
 html {
   height: 100%;
   overflow: hidden;
 }
 
-a {
-  text-decoration: none
-}
-
-
-body {
+body { 
   margin:0;
   padding:0;
-	perspective: 1px;
-	transform-style: preserve-3d;
+  perspective: 1px;
+  transform-style: preserve-3d;
   height: 100%;
   overflow-y: scroll;
   overflow-x: hidden;
-  font-family: Nunito;
-  font-family: /*'HelveticaNeue',*/'Raleway', sans-serif;
+  font-family: Raleway;
 }
 
 h1 {
-    
+   font-size: 250%
 }
 
 p {
@@ -44,62 +40,46 @@ p {
 
 .slide {
   position: relative;
-  padding: 5vh 10%;
-  min-height: 100vh;
+  padding: 25vh 10%;
+  height: 100vh;
   width: 100vw;
   box-sizing: border-box;
   box-shadow: 0 -1px 10px rgba(0, 0, 0, .7);
-	transform-style: inherit;
+  transform-style: inherit;
 }
 
-.slid {
-  position: relative;
-  padding: 5vh 10%;
-  min-height: 60vh;
-  width: 100vw;
-  box-sizing: border-box;
-  box-shadow: 0 -1px 10px rgba(0, 0, 0, .7);
-	transform-style: inherit;
-  background-color: rgb(0, 0, 0);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  color: white;
-}
-
-.slid p {
-  font-size: 174%;
-  line-height: 150%;
-  color: #656565;
-}
-
-
-
-img {
+#slide1 img {
+  position: absolute;
+  top: 50%;
   left: 35%;
   width: 320px;
   height: 240px;
-  transform: translateZ(.25px) scale(.75) translateX(-94%) translateY(-100%) ;
-  padding: 3px;
-  border-radius: 5px;
-  background: rgba(240,230,220, .7);
-  box-shadow: 0 0 3px rgba(0, 0, 0, .7);
-  top: 50%;
-  position: absolute;
+  transform: translateZ(.25px) scale(.75) translateX(-94%) translateY(-100%) rotate(0deg);
+  padding: 2px;
+  border-radius: 3px;
+background: linear-gradient(45deg, rgba(61,61,61,1) 0%,rgba(14,14,14,1) 100%);
+  box-shadow: 0 0 8px rgba(0, 0, 0, .7);
 }
 
-img:last-of-type {
-	  left: 25%;
+#slide1 img:last-of-type {
+  transform: translateZ(.4px) scale(.6) translateX(-104%) translateY(-40%) rotate(0deg);
+}
+
+#slide2 img{
+  position: absolute;
+  top: 50%;
+  right: 9%;
   width: 320px;
   height: 240px;
-  transform: translateZ(.25px) scale(.75) translateX(-94%) translateY(-100%) ;
-  padding: 3px;
-  border-radius: 5px;
-  background: rgba(240,230,220, .7);
-  box-shadow: 0 0 3px rgba(0, 0, 0, .7);
-  top: 50%;
-  position: absolute;
+  transform: translateZ(.25px) scale(.75) translateX(-94%) translateY(-100%) rotate(0deg);
+  padding: 2px;
+  border-radius: 3px;
+background: linear-gradient(45deg, rgba(61,61,61,1) 0%,rgba(14,14,14,1) 100%);
+  box-shadow: 0 0 8px rgba(0, 0, 0, .7);
+}
+
+#slide2 img:last-of-type {
+  transform: translateZ(.4px) scale(.6) translateX(-104%) translateY(-40%) rotate(0deg);
 }
 
 .slide:before {
@@ -112,11 +92,16 @@ img:last-of-type {
 }
 
 .title {
-  width: 60%;
+  width: 50%;
   padding: 5%;
   border-radius: 5px;
-  background: rgba(240,230,220, .7);
+  background: rgba(0,0,0, .7);
   box-shadow: 0 0 8px rgba(0, 0, 0, .7);
+  color:#EEE;
+}
+
+.title p {
+  color:#AAA;
 }
 
 .slide:nth-child(2n) .title {
@@ -130,28 +115,32 @@ img:last-of-type {
 }
 
 .slide, .slide:before {
-  background: 50% 50% / cover;
+  background: 50% 50% / cover;  
 }
 
 .header {
   text-align: center;
-  font-size: 155%;
+  font-size: 175%;
   color: #fff;
-  z-index:-1;
-  padding-left:0;
-  padding-right:0;
   text-shadow: 0 2px 2px #000;
+  padding-left:0;
+  height:100vh;
 }
+
+
 
 #title {
   background-image: url("../images/001-DSCF1480-2013-2.jpg");
-   background-attachment: fixed;
+   background-attachment: fixed;  
+   display:flex;
+   align-items:center;
+   /*justify-content:center;*/
+   flex-flow:column nowrap;
 }
 
 #slide1:before {
-background-color: rgb(18, 18, 18);
-transform: translateZ(-1px) scale(3);
-height: 700px;
+  background-image: url("http://bgfons.com/upload/stone_texture566.jpg");
+  transform: translateZ(-1px) scale(2.2);
   z-index:-1;
 }
 
@@ -161,37 +150,41 @@ height: 700px;
 }
 
 #slide3:before {
-  background-image: url("../http://lorempixel.com/640/480/abstract/5/");
+  background-image: url("../images/villa.jpg");
   transform: translateZ(-1px) scale(2);
   z-index:-1;
 }
 
-
 #slide4 {
-  background-image: url("../images/villa.jpg");
-  background-attachment: fixed;
+  background: #222;
 }
 
 
 /*/////////////////////////////////////////////////////////////*/
 
 
-.header h1 {
+#title h1 {
   font-size:330%;
-  margin-top:29vh;
-  margin-bottom:0;
+  margin:6% 10% 0 20%;
   padding:0;
   font-weight:400;
 }
 
 .header h4 {
-  margin:20px 0 0 25%;
+margin:0 10% 0 37%;
+}
+
+
+footer {
+  height:50vh;
+  display:flex;
+  justify-content:center;
 }
 
 
 @media screen and (max-width:786px) {
 
-.header h1 {
+#title h1 {
 		font-size:230%;
 } 
 
@@ -199,12 +192,14 @@ height: 700px;
 
 @media screen and (max-width:410px) {
 
-.header h1 {
-		font-size:210%;
+#title h1 {
+		font-size:170%;
 } 
 
-.header h4 {
-	margin-left:2%;
+#title h4 {
+	margin-left:23%;
+    font-size:100%;
+    margin-top:3%;
 }
 
 }

@@ -5,8 +5,9 @@ nav {
   padding:5px;
   display:flex;
   justify-content:space-between;
-  text-align: center;
   align-items:center;
+  text-align: center;
+  height:50px;
   /*height:60px;*/
   /*z-index:1;*/
   /*width:100%;*/
@@ -15,14 +16,14 @@ nav {
 }
 
 #nav-img-1 {
-  width:40px;
   z-index:22;
   height:40px;
-  transform:none;
-  position:relative;
   top:2px;
   left:5px;
+  width:40px;
+  transform:none;
   background:none;
+  position:relative;
 }
 
 #nav-img-2 {
@@ -34,6 +35,7 @@ nav {
   box-shadow:none;
   position:static;
   margin-left:25%;
+  padding:0;
 }
 
 nav * {
@@ -44,7 +46,7 @@ nav * {
 #flag {
   width:35px;
   height:20px;
-  margin-top:-3px;
+  margin-top:-2px;
   transform:none;
   box-shadow: none;
   border:none;
@@ -54,6 +56,9 @@ nav * {
 
 .right-nav {  
   display:flex;
+  margin-top:5px;
+  justify-content:center;
+  align-items:center;
 }
 
 .right-nav *{
