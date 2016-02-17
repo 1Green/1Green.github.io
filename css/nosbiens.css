@@ -137,9 +137,12 @@ h2, h4 {
 	aside {
 		height: 180vh;
 	}
+<<<<<<< HEAD
 	#nav-img-2 {
 		display: none;
 	}
+=======
+>>>>>>> 1c52fa75c2273f92a9a93dc71ef8ce311c9e7f2c
 }
 
 @media screen and (max-width: 450px){
@@ -173,9 +176,12 @@ h2, h4 {
 	margin: 0;
 	padding: 0;
 	}
+<<<<<<< HEAD
 	#nav-img-2 {
 		display: none;
 	}
+=======
+>>>>>>> 1c52fa75c2273f92a9a93dc71ef8ce311c9e7f2c
 	.button1 button {
 		width: 100%;
 	}
