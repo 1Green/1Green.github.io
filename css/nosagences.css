@@ -1,3 +1,6 @@
+@import url(navbar.css);
+
+
 * {
   padding: 0;
   margin: 0;
@@ -49,6 +52,8 @@ header {
   align-items: center;
   margin-top: 140px;
   margin-bottom: 140px;
+  width: 1420px;
+  margin:140px auto;
 
 }
 
@@ -112,7 +117,9 @@ text-align: center;
 
 main {
   width: 97.5%;
+  min-height:660px;
   margin-top: 23px;
+  display:flex;
 }
 
 main a {
@@ -442,3 +449,5 @@ width: 42.5%;
 
 
 }
+
+

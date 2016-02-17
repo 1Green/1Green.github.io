@@ -1,0 +1,11 @@
+@import url(http://fonts.googleapis.com/css?family=Nunito);
+@import url(navbar.css);
+
+
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: 'Raleway', sans-serif;
+}
