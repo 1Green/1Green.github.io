@@ -31,9 +31,18 @@ form  {
 }
 
 .locations form input {
-	padding: 6px 10px;
+	padding: 6px 0;
 	border-radius: 6px;
 	margin-top: 10px;
+}
+.button1 button{
+	padding: 9px;
+	font:bold 13px ;
+	background:#f5f5f5;
+	color:#555;
+	border-radius:2px;
+	width:100px;
+	border:1px solid #ccc;
 }
 
 .droite {
@@ -84,5 +93,48 @@ h2, h4 {
 	aside {
 		height: 180vh;
 	}
+	#nav-img-2 {
+		display: none;
+	}
+}
 
+@media screen and (max-width: 360px){
+	#nosbiens {
+		display: flex;
+		flex-direction: column;
+	}
+	body {
+		width: 358px;
+	}
+	aside h2 {
+		font-size: 20px;
+	}
+
+	.card-1, .card-2, .card-3, .card-4, .card-5, .card-6{
+
+		max-width: 350px;
+	}
+	.gauche {
+		height: 100vh;
+	}
+	.droite-haut {
+		max-width: 358px;
+	}
+	.droite-haut img {
+		width: 350px;
+	}
+	.prix {
+		display: flex;
+		flex-direction: column;
+	}
+	.droite {
+	margin: 0;
+	padding: 0;
+	}
+	#nav-img-2 {
+		display: none;
+	}
+	.button1 button {
+		width: 100%;
+	}
 }
