@@ -5,8 +5,16 @@
 body {
 	margin:0;
 	font-family: 'Raleway', sans-serif;
+	overflow-x:hidden;
 }
 
+
+#nosbiens {
+	display: flex;
+}
+
+
+/*NAVIGATION À GAUCHE AVEC LES PRIX*/
 .gauche {
 		background-color: black;
 			min-height: 130vh;
@@ -16,13 +24,10 @@ body {
 
 aside {
 	min-width: 20%;
-	color: white;
+	color: #EDE7E7;
 	padding: 80px 30px;
 }
 
-#nosbiens {
-	display: flex;
-}
 
 form  {
 	display: flex;
@@ -45,6 +50,11 @@ form  {
 	border:1px solid #ccc;
 }
 
+.button1 button:hover {
+	background-color: black;
+}
+
+/*Main LA PAGE CENTRALE AVEC LES ARTICLES*/
 .droite {
 	width: 100%;
 	padding: 50px 10px;
@@ -123,15 +133,14 @@ form  {
 	
 }
 
-/*.droite-haut img:hover { 
-	opacity: 0.7; 
-	filter: alpha(opacity=30); 
-}*/
 
 h2, h4 {
 	margin:0;
-	padding: 5px; 0
+	padding: 5px;
 }
+
+/*LES MEDIAS QUERIES*/
+
 
 @media screen and (max-width: 768px){
 	aside {
@@ -145,7 +154,8 @@ h2, h4 {
 >>>>>>> 1c52fa75c2273f92a9a93dc71ef8ce311c9e7f2c
 }
 
-@media screen and (max-width: 450px){
+
+@media screen and (max-width: 735px){
 	#nosbiens {
 		display: flex;
 		flex-direction: column;
@@ -157,7 +167,7 @@ h2, h4 {
 
 	.card-1, .card-2, .card-3, .card-4, .card-5, .card-6{
 
-		max-width: 350px;
+		min-width: 90vw;
 	}
 	.gauche {
 		height: 100vh;
@@ -175,6 +185,48 @@ h2, h4 {
 	.droite {
 	margin: 0;
 	padding: 0;
+	display: flex;
+	justify-content: center;
+	}
+	.button1 button {
+		width: 100%;
+	}
+	.hover-img {
+		width: 100%;
+	}
+}
+
+
+@media screen and (max-width: 360px){
+	#nosbiens {
+		display: flex;
+		flex-direction: column;
+	}
+
+	aside h2 {
+		font-size: 20px;
+	}
+
+	.card-1, .card-2, .card-3, .card-4, .card-5, .card-6{
+
+			width: 90vw;
+	}
+	.gauche {
+		height: 100vh;
+	}
+	.droite-haut {
+		max-width: 358px;
+	}
+
+	.prix {
+		display: flex;
+		flex-direction: column;
+	}
+	.droite {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
 	}
 <<<<<<< HEAD
 	#nav-img-2 {
@@ -184,5 +236,8 @@ h2, h4 {
 >>>>>>> 1c52fa75c2273f92a9a93dc71ef8ce311c9e7f2c
 	.button1 button {
 		width: 100%;
+	}
+	.hover-img {
+		width: 90vw;
 	}
 }
