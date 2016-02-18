@@ -17,7 +17,7 @@ body {
 }
 .gauche {
   background-color: black;
-  min-height: 120vh;
+  min-height: 100vh;
 }
 aside {
   min-width: 20%;
@@ -179,7 +179,7 @@ font-size: 1.3em;
 
 
 .mag {
-  background-image: url(../images/magazine.jpg);
+  background-image: url(../images/magazine.jpeg);
   background-size: cover;
   width: 180px;
   height: 240px;
@@ -326,7 +326,7 @@ max-width: 1000px;
 
 @media screen and (max-width: 1043px) {
   .mag {
-    background-image: url(../images/magazine.jpg);
+    background-image: url(../images/magazine.jpeg);
     background-size: cover;
     max-width: 180px;
     height: 240px;
