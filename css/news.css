@@ -17,7 +17,7 @@ body {
 }
 .gauche {
   background-color: black;
-  min-height: 130vh;
+  min-height: 100vh;
 }
 aside {
   min-width: 20%;
@@ -28,6 +28,12 @@ aside {
   display: flex;
 }
 form {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 30px;
+}
+
+.formu {
   display: flex;
   flex-direction: column;
   padding-bottom: 30px;
@@ -134,7 +140,7 @@ text-align: center;
 .droite {
   display: flex;
   flex-direction: column;
-  height: 1070px;
+  padding: 15px 25px;
 }
 
 .hover-img-1 {
@@ -144,7 +150,12 @@ text-align: center;
 	background-image: url('../images/ph.jpg');
 }.hover-img-3 {
 	background-image: url('../images/pho.jpg');
-}
+}.hover-img-4 {
+	background-image: url('../images/chateau.jpg');
+}.hover-img-5 {
+	background-image: url('../images/summer.jpg');
+}.hover-img-6 {
+	background-image: url('../images/tom-cruise-villa-hd.jpg');
 }
 
 #nosbiens h2 {
@@ -168,23 +179,23 @@ font-size: 1.3em;
 
 
 .mag {
-  background-image: url(../images/magazine.jpg);
+  background-image: url(../images/magazine.jpeg);
   background-size: cover;
-  width: 150px;
-  height: 200px;
+  width: 180px;
+  height: 240px;
   transition: 0.3s all ease;
-
+  margin-top: 20px;
 }
 
 .mag:hover {
   transition: 0.3s all ease;
-  width: 225px;
-  height: 300px;
+  background-color: rgba(0,0,0,0.4);
+  background-blend-mode: darken;
 }
 
 .magazine {
   margin-top: 50px;
-  height: 500px;
+  padding-bottom: 10px;
   display: flex;
 flex-direction: column;
 align-items: center;
@@ -195,64 +206,78 @@ align-items: center;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 100%;
-  height: 330px;
+width: 80%;
+max-width: 1000px;
+  flex-wrap: wrap;
+  margin-top: 20px;
 }
 
 .little-mag1 {
   background-image: url(../images/magazine2.jpeg);
   background-size: cover;
-  width: 150px;
-  height: 200px;
+  width: 180px;
+  height: 240px;
   transition: 0.3s all ease;
+  margin-top: 20px;
 
 }
 
 .little-mag1:hover {
   transition: 0.3s all ease;
-  width: 225px;
-  height: 300px;
+  background-color: rgba(0,0,0,0.4);
+  background-blend-mode: darken;
+
+
 }
 
 
 .little-mag2 {
   background-image: url(../images/magazine3.jpeg);
   background-size: cover;
-  width: 150px;
-  height: 200px;
+  width: 180px;
+  height: 240px;
   transition: 0.3s all ease;
+  margin-top: 20px;
 
 }
 .little-mag2:hover {
   transition: 0.3s all ease;
-  width: 225px;
-  height: 300px;
+  background-color: rgba(0,0,0,0.4);
+  background-blend-mode: darken;
+
+
 }
 .little-mag3 {
   background-image: url(../images/magazine4.jpeg);
   background-size: cover;
-  width: 150px;
-  height: 200px;
+  width: 180px;
+  height: 240px;
   transition: 0.3s all ease;
+  margin-top: 20px;
 
 }
 .little-mag3:hover {
   transition: 0.3s all ease;
-  width: 225px;
-  height: 300px;
+  background-color: rgba(0,0,0,0.4);
+  background-blend-mode: darken;
+
+
 }
 .little-mag4 {
   background-image: url(../images/magazine5.jpeg);
   background-size: cover;
-  width: 150px;
-  height: 200px;
+  width: 180px;
+  height: 240px;
   transition: 0.3s all ease;
+  margin-top: 20px;
 
 }
 .little-mag4:hover {
   transition: 0.3s all ease;
-  width: 225px;
-  height: 300px;
+  background-color: rgba(0,0,0,0.4);
+  background-blend-mode: darken;
+
+
 }
 
 
@@ -296,4 +321,157 @@ align-items: center;
   transition: all 0.2s ease-in-out;
 
   color: rgb(117, 117, 117);
+}
+
+
+@media screen and (max-width: 1043px) {
+  .mag {
+    background-image: url(../images/magazine.jpeg);
+    background-size: cover;
+    max-width: 180px;
+    height: 240px;
+    transition: 0.3s all ease;
+    margin-top: 20px;
+    flex-grow: 1;
+    padding: 5px;
+  }
+
+  .droite {
+    padding: 0;
+  }
+
+  .mag:hover {
+    transition: 0.3s all ease;
+    background-color: rgba(0,0,0,0.4);
+    background-blend-mode: darken;
+  }
+
+  .magazine {
+    margin-top: 50px;
+    padding-bottom: 10px;
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  }
+
+  .img-mag {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+
+  .little-mag1 {
+    background-image: url(../images/magazine2.jpeg);
+    background-size: cover;
+    max-width: 180px;
+    height: 240px;
+    transition: 0.3s all ease;
+    margin-top: 20px;
+    flex-grow: 1;
+    padding: 5px;
+
+  }
+
+  .little-mag1:hover {
+    transition: 0.3s all ease;
+
+    background-color: rgba(0,0,0,0.4);
+    background-blend-mode: darken;
+  }
+
+
+  .little-mag2 {
+    background-image: url(../images/magazine3.jpeg);
+    background-size: cover;
+    max-width: 180px;
+    height: 240px;
+    transition: 0.3s all ease;
+    margin-top: 20px;
+    flex-grow: 1;
+    padding: 5px;
+
+  }
+  .little-mag2:hover {
+    transition: 0.3s all ease;
+    background-color: rgba(0,0,0,0.4);
+    background-blend-mode: darken;
+  }
+  .little-mag3 {
+    background-image: url(../images/magazine4.jpeg);
+    background-size: cover;
+    max-width: 180px;
+    height: 240px;
+    transition: 0.3s all ease;
+    margin-top: 20px;
+    flex-grow: 1;
+    padding: 5px;
+
+  }
+  .little-mag3:hover {
+    transition: 0.3s all ease;
+    background-color: rgba(0,0,0,0.4);
+    background-blend-mode: darken;
+  }
+  .little-mag4 {
+    background-image: url(../images/magazine5.jpeg);
+    background-size: cover;
+    max-width: 180px;
+    height: 240px;
+    transition: 0.3s all ease;
+    margin-top: 20px;
+    flex-grow: 1;
+    padding: 5px;
+
+  }
+  .little-mag4:hover {
+    transition: 0.3s all ease;
+    background-color: rgba(0,0,0,0.4);
+    background-blend-mode: darken;
+
+
+  }
+
+
+}
+
+
+@media screen and (max-width: 635px) {
+  #nosbiens {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+  }
+
+  .button1 button {
+    padding: 9px;
+    font: bold 13px;
+    background: #f5f5f5;
+    color: #555;
+    margin: 10px;
+    border-radius: 2px;
+    width: 95%;
+    border: 1px solid #ccc;
+    transition: all 0.3s ease;
+
+  }
+  aside {
+    min-width: 20%;
+    color: white;
+    padding: 80px 30px;
+    text-align: center;
+  }
+
+.formu {
+display: flex;
+align-items: flex-start;
+margin-left: 55px;
+
+}
+
 }
