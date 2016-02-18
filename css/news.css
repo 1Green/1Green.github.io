@@ -46,7 +46,17 @@ form {
   border-radius: 2px;
   width: 200px;
   border: 1px solid #ccc;
+  transition: all 0.3s ease;
+
 }
+
+.button1 button:hover {
+  transition: all 0.3s ease;
+  background-color: black;
+  border: 1px solid rgb(200, 200, 200);
+
+}
+
 .button1 {
   display: flex;
   flex-direction: column;
@@ -101,6 +111,8 @@ form {
 .cord {
   display: flex;
   flex-wrap: wrap;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .abonnez {
@@ -162,23 +174,89 @@ font-size: 1.3em;
 .mag {
   background-image: url(../images/magazine.jpg);
   background-size: cover;
-  width: 300px;
-  height: 400px;
+  width: 150px;
+  height: 200px;
+  transition: 0.3s all ease;
+
+}
+
+.mag:hover {
+  transition: 0.3s all ease;
+  width: 225px;
+  height: 300px;
 }
 
 .magazine {
-  margin-top: 70px;
+  margin-top: 50px;
   padding-bottom: 50px;
+  display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+.img-mag {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  width: 100%;
+  height: 330px;
 }
 
-.border {
-padding-top: 70px;
-width: 50%;
-  border-bottom: 1px solid rgb(138, 138, 138);
-  margin: auto;
+.little-mag1 {
+  background-image: url(../images/magazine2.jpeg);
+  background-size: cover;
+  width: 150px;
+  height: 200px;
+  transition: 0.3s all ease;
+
+}
+
+.little-mag1:hover {
+  transition: 0.3s all ease;
+  width: 225px;
+  height: 300px;
+}
+
+
+.little-mag2 {
+  background-image: url(../images/magazine3.jpeg);
+  background-size: cover;
+  width: 150px;
+  height: 200px;
+  transition: 0.3s all ease;
+
+}
+.little-mag2:hover {
+  transition: 0.3s all ease;
+  width: 225px;
+  height: 300px;
+}
+.little-mag3 {
+  background-image: url(../images/magazine4.jpeg);
+  background-size: cover;
+  width: 150px;
+  height: 200px;
+  transition: 0.3s all ease;
+
+}
+.little-mag3:hover {
+  transition: 0.3s all ease;
+  width: 225px;
+  height: 300px;
+}
+.little-mag4 {
+  background-image: url(../images/magazine5.jpeg);
+  background-size: cover;
+  width: 150px;
+  height: 200px;
+  transition: 0.3s all ease;
+
+}
+.little-mag4:hover {
+  transition: 0.3s all ease;
+  width: 225px;
+  height: 300px;
 }
 
 
@@ -211,4 +289,15 @@ width: 50%;
   display: flex;
   flex-direction: column;
 }
->>>>>>> 1c52fa75c2273f92a9a93dc71ef8ce311c9e7f2c
+
+.lien a {
+  padding: 6px;
+  transition: all 0.2s ease-in-out;
+  
+}
+
+.lien a:hover {
+  transition: all 0.2s ease-in-out;
+
+  color: rgb(117, 117, 117);
+}
