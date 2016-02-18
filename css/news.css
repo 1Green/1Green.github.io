@@ -1,27 +1,23 @@
 @import url(http://fonts.googleapis.com/css?family=Nunito);
 @import url(navbar.css);
-<<<<<<< HEAD
 
-
-=======
 @import url(footer.css);
->>>>>>> 1c52fa75c2273f92a9a93dc71ef8ce311c9e7f2c
 * {
   padding: 0;
   margin: 0;
 }
+
 body {
   font-family: 'Raleway', sans-serif;
 }
-<<<<<<< HEAD
-=======
+
 body {
   margin: 0;
   font-family: 'Raleway', sans-serif;
 }
 .gauche {
   background-color: black;
-  min-height: 130vh;
+  min-height: 100vh;
 }
 aside {
   min-width: 20%;
@@ -32,6 +28,12 @@ aside {
   display: flex;
 }
 form {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 30px;
+}
+
+.formu {
   display: flex;
   flex-direction: column;
   padding-bottom: 30px;
@@ -50,7 +52,17 @@ form {
   border-radius: 2px;
   width: 200px;
   border: 1px solid #ccc;
+  transition: all 0.3s ease;
+
 }
+
+.button1 button:hover {
+  transition: all 0.3s ease;
+  background-color: black;
+  border: 1px solid rgb(200, 200, 200);
+
+}
+
 .button1 {
   display: flex;
   flex-direction: column;
@@ -68,24 +80,24 @@ form {
   margin-bottom: 5px;
 }
 
-.card-1, .card-2, .card-3, .card-4, .card-5, .card-6{
+.card-1, .card-2, .card-3{
 	background-color: white;
 	width: 300px;
-	margin-left:  20px;
+	margin-left:  10px;
+  margin-right: 10px;
   margin-top: 20px;
+  flex-grow: 1;
 
 }
 
 
 .prix{
-	width: 300px;
 	display: flex;
 	justify-content: space-between;
 }
 
 .hover-img {
 	z-index: 3;
-	width: 300px;
 	height: 267px;
 	background-size: cover;
 	display: flex;
@@ -100,6 +112,35 @@ form {
 		transition: all 0.2s ease-in-out;
 
 
+}
+
+.cord {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.abonnez {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.abonnez h1 {
+  font-size: 1.9em;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.abonnez p {
+text-align: center;
+}
+
+.droite {
+  display: flex;
+  flex-direction: column;
+  padding: 15px 25px;
 }
 
 .hover-img-1 {
@@ -127,9 +168,118 @@ font-size: 1.3em;
   font-style: italic;
 }
 
-.mag {
-  
+#nosbiens {
+  display: flex;
 }
+
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.mag {
+  background-image: url(../images/magazine.jpeg);
+  background-size: cover;
+  width: 180px;
+  height: 240px;
+  transition: 0.3s all ease;
+  margin-top: 20px;
+}
+
+.mag:hover {
+  transition: 0.3s all ease;
+  background-color: rgba(0,0,0,0.4);
+  background-blend-mode: darken;
+}
+
+.magazine {
+  margin-top: 50px;
+  padding-bottom: 10px;
+  display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+.img-mag {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+width: 80%;
+max-width: 1000px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.little-mag1 {
+  background-image: url(../images/magazine2.jpeg);
+  background-size: cover;
+  width: 180px;
+  height: 240px;
+  transition: 0.3s all ease;
+  margin-top: 20px;
+
+}
+
+.little-mag1:hover {
+  transition: 0.3s all ease;
+  background-color: rgba(0,0,0,0.4);
+  background-blend-mode: darken;
+
+
+}
+
+
+.little-mag2 {
+  background-image: url(../images/magazine3.jpeg);
+  background-size: cover;
+  width: 180px;
+  height: 240px;
+  transition: 0.3s all ease;
+  margin-top: 20px;
+
+}
+.little-mag2:hover {
+  transition: 0.3s all ease;
+  background-color: rgba(0,0,0,0.4);
+  background-blend-mode: darken;
+
+
+}
+.little-mag3 {
+  background-image: url(../images/magazine4.jpeg);
+  background-size: cover;
+  width: 180px;
+  height: 240px;
+  transition: 0.3s all ease;
+  margin-top: 20px;
+
+}
+.little-mag3:hover {
+  transition: 0.3s all ease;
+  background-color: rgba(0,0,0,0.4);
+  background-blend-mode: darken;
+
+
+}
+.little-mag4 {
+  background-image: url(../images/magazine5.jpeg);
+  background-size: cover;
+  width: 180px;
+  height: 240px;
+  transition: 0.3s all ease;
+  margin-top: 20px;
+
+}
+.little-mag4:hover {
+  transition: 0.3s all ease;
+  background-color: rgba(0,0,0,0.4);
+  background-blend-mode: darken;
+
+
+}
+
 
 
 .droite-haut img {
@@ -160,4 +310,168 @@ font-size: 1.3em;
   display: flex;
   flex-direction: column;
 }
->>>>>>> 1c52fa75c2273f92a9a93dc71ef8ce311c9e7f2c
+
+.lien a {
+  padding: 6px;
+  transition: all 0.2s ease-in-out;
+
+}
+
+.lien a:hover {
+  transition: all 0.2s ease-in-out;
+
+  color: rgb(117, 117, 117);
+}
+
+
+@media screen and (max-width: 1043px) {
+  .mag {
+    background-image: url(../images/magazine.jpeg);
+    background-size: cover;
+    max-width: 180px;
+    height: 240px;
+    transition: 0.3s all ease;
+    margin-top: 20px;
+    flex-grow: 1;
+    padding: 5px;
+  }
+
+  .droite {
+    padding: 0;
+  }
+
+  .mag:hover {
+    transition: 0.3s all ease;
+    background-color: rgba(0,0,0,0.4);
+    background-blend-mode: darken;
+  }
+
+  .magazine {
+    margin-top: 50px;
+    padding-bottom: 10px;
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  }
+
+  .img-mag {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+
+  .little-mag1 {
+    background-image: url(../images/magazine2.jpeg);
+    background-size: cover;
+    max-width: 180px;
+    height: 240px;
+    transition: 0.3s all ease;
+    margin-top: 20px;
+    flex-grow: 1;
+    padding: 5px;
+
+  }
+
+  .little-mag1:hover {
+    transition: 0.3s all ease;
+
+    background-color: rgba(0,0,0,0.4);
+    background-blend-mode: darken;
+  }
+
+
+  .little-mag2 {
+    background-image: url(../images/magazine3.jpeg);
+    background-size: cover;
+    max-width: 180px;
+    height: 240px;
+    transition: 0.3s all ease;
+    margin-top: 20px;
+    flex-grow: 1;
+    padding: 5px;
+
+  }
+  .little-mag2:hover {
+    transition: 0.3s all ease;
+    background-color: rgba(0,0,0,0.4);
+    background-blend-mode: darken;
+  }
+  .little-mag3 {
+    background-image: url(../images/magazine4.jpeg);
+    background-size: cover;
+    max-width: 180px;
+    height: 240px;
+    transition: 0.3s all ease;
+    margin-top: 20px;
+    flex-grow: 1;
+    padding: 5px;
+
+  }
+  .little-mag3:hover {
+    transition: 0.3s all ease;
+    background-color: rgba(0,0,0,0.4);
+    background-blend-mode: darken;
+  }
+  .little-mag4 {
+    background-image: url(../images/magazine5.jpeg);
+    background-size: cover;
+    max-width: 180px;
+    height: 240px;
+    transition: 0.3s all ease;
+    margin-top: 20px;
+    flex-grow: 1;
+    padding: 5px;
+
+  }
+  .little-mag4:hover {
+    transition: 0.3s all ease;
+    background-color: rgba(0,0,0,0.4);
+    background-blend-mode: darken;
+
+
+  }
+
+
+}
+
+
+@media screen and (max-width: 635px) {
+  #nosbiens {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+  }
+
+  .button1 button {
+    padding: 9px;
+    font: bold 13px;
+    background: #f5f5f5;
+    color: #555;
+    margin: 10px;
+    border-radius: 2px;
+    width: 95%;
+    border: 1px solid #ccc;
+    transition: all 0.3s ease;
+
+  }
+  aside {
+    min-width: 20%;
+    color: white;
+    padding: 80px 30px;
+    text-align: center;
+  }
+
+.formu {
+display: flex;
+align-items: flex-start;
+margin-left: 55px;
+
+}
+
+}
