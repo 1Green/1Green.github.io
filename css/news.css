@@ -32,6 +32,12 @@ form {
   flex-direction: column;
   padding-bottom: 30px;
 }
+
+.formu {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 30px;
+}
 .locations form input {
   padding: 6px 0;
   border-radius: 6px;
@@ -423,5 +429,43 @@ align-items: center;
     height: 200px;
   }
 
+
+}
+
+
+@media screen and (max-width: 635px) {
+  #nosbiens {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+  }
+
+  .button1 button {
+    padding: 9px;
+    font: bold 13px;
+    background: #f5f5f5;
+    color: #555;
+    margin: 10px;
+    border-radius: 2px;
+    width: 95%;
+    border: 1px solid #ccc;
+    transition: all 0.3s ease;
+
+  }
+  aside {
+    min-width: 20%;
+    color: white;
+    padding: 80px 30px;
+    text-align: center;
+  }
+
+.formu {
+display: flex;
+align-items: flex-start;
+margin-left: 55px;
+
+}
 
 }
