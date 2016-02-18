@@ -90,6 +90,12 @@ form {
 
 }
 
+hr {
+  margin: 10px 0px;;
+}
+
+
+
 
 .prix{
 	display: flex;
@@ -124,17 +130,29 @@ form {
 .abonnez {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  align-items: center;
+  width: 80%;
 }
 
 .abonnez h1 {
   font-size: 1.9em;
-  padding-bottom: 20px;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(200, 44, 44);
+  color: white;
+padding: 0 3px;
+ width: 100%;
+  height: 80px;
+  border-radius: 5px;
 }
 
 .abonnez p {
+
 text-align: center;
+width: 100%;
+margin: 30px 0 0 0;
 }
 
 .droite {
@@ -446,6 +464,14 @@ max-width: 1000px;
     align-items: center;
     width: 100%;
     background-color: black;
+  }
+
+  .abonnez p {
+
+  text-align: center;
+  width: 100%;
+  margin: 10px auto;
+  color: white;
   }
 
   .button1 button {
