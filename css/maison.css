@@ -1,0 +1,63 @@
+@import url(navbar.css);
+@import url(footer.css);
+
+body {
+	margin:0;
+	font-family: 'Raleway', sans-serif;
+	overflow-x:hidden;
+	background-color: black;
+}
+
+#nosbiens {
+	display: flex;
+}
+
+aside {
+	background-color: black;
+	min-width: 20%;
+	height: 130vh;
+	padding: 80px 30px;
+	color: #EDE7E7;
+
+}
+
+#main {
+	margin-top: 7%;
+	margin-left: 7%;
+	background-color: black;
+	display: flex;
+
+}
+.centre-article {
+	width: 50%;
+}
+.article-centre {
+	color: white;
+	font-weight: bold;
+	width: 100%;
+}
+/*.article-centre p {
+	width: 80%;
+}
+.img-centrale img {
+	width: 80%;
+}*/
+
+.droite-article {
+	width: 50%;
+}
+.droite-article-img img {
+	width: 20%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.droite-article-img img:hover {
+	width: 700px;
+}
+
+.achr {
+	display: flex;
+	justify-content: space-between;
+}
