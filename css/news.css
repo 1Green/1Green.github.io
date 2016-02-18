@@ -188,7 +188,7 @@ font-size: 1.3em;
 
 .magazine {
   margin-top: 50px;
-  padding-bottom: 50px;
+  height: 500px;
   display: flex;
 flex-direction: column;
 align-items: center;
@@ -293,7 +293,7 @@ align-items: center;
 .lien a {
   padding: 6px;
   transition: all 0.2s ease-in-out;
-  
+
 }
 
 .lien a:hover {
