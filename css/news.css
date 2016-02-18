@@ -17,7 +17,7 @@ body {
 }
 .gauche {
   background-color: black;
-  min-height: 130vh;
+  min-height: 120vh;
 }
 aside {
   min-width: 20%;
@@ -188,8 +188,8 @@ font-size: 1.3em;
 
 .mag:hover {
   transition: 0.3s all ease;
-  width: 225px;
-  height: 300px;
+  width: 175px;
+  height: 233px;
 }
 
 .magazine {
@@ -205,7 +205,7 @@ align-items: center;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 100%;
+  max-width: 1100px;
   flex-wrap: wrap;
   margin-top: 20px;
 }
@@ -222,8 +222,8 @@ align-items: center;
 
 .little-mag1:hover {
   transition: 0.3s all ease;
-  width: 225px;
-  height: 300px;
+  width: 175px;
+  height: 233px;
 }
 
 
@@ -238,8 +238,8 @@ align-items: center;
 }
 .little-mag2:hover {
   transition: 0.3s all ease;
-  width: 225px;
-  height: 300px;
+  width: 175px;
+  height: 233px;
 }
 .little-mag3 {
   background-image: url(../images/magazine4.jpeg);
@@ -252,8 +252,8 @@ align-items: center;
 }
 .little-mag3:hover {
   transition: 0.3s all ease;
-  width: 225px;
-  height: 300px;
+  width: 175px;
+  height: 233px;
 }
 .little-mag4 {
   background-image: url(../images/magazine5.jpeg);
@@ -266,8 +266,8 @@ align-items: center;
 }
 .little-mag4:hover {
   transition: 0.3s all ease;
-  width: 225px;
-  height: 300px;
+  width: 175px;
+  height: 233px;
 }
 
 
