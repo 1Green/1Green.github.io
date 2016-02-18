@@ -38,10 +38,11 @@ aside {
 }
 /*.article-centre p {
 	width: 80%;
-}
-.img-centrale img {
-	width: 80%;
 }*/
+.img-centrale img {
+	width: 700px;
+	height: 500px;
+}
 
 .droite-article {
 	width: 50%;
