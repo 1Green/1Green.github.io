@@ -57,16 +57,17 @@ body {
 
 
 	.cards-line {
+		
 		display: flex;
-	flex-flow:row wrap;
-	justify-content:center;
+		flex-flow:row wrap;
+		justify-content:center;
 	}
 
 	.cardcontact {
 	border: 3px solid #464646ff;
 	border-radius: 5px;
 	text-align: center;
-	margin:15px 15px;
+	margin:25px 25px;
 	background-color:black;
 	color:#AAA;
 	padding:43px;
@@ -100,8 +101,9 @@ body {
 	margin:auto;
 	align-items:center;
 	padding:30px 40px;
-	background-color:#ecf0f1;
+	background-color:rgba(1,1,1,0.8);
 	border-radius: 3px;
+	box-shadow: 0 0 1px 2px grey inset;
 	}
 
 
@@ -131,6 +133,11 @@ body {
 		flex-flow:column nowrap;
 		align-items:flex-start;
 		width:100%;
+		color:white;
+	}
+
+	label {
+		margin-bottom:10px;
 	}
 
 	#id_demo {
@@ -150,9 +157,12 @@ body {
 	#user, #comments, #adress, #postalcode, #city, #mail, #phone
 	{
 		border-radius: 3px;
-		margin:5px 0;
+		margin:5px 5px;
 		background-color: #282828;
 		color:white;
+		padding:9px 0;
+		border:none;
+		box-shadow: 0 0 1px 1px grey;
 	}
 
 
@@ -163,8 +173,7 @@ body {
 		}	
 
 	#user {
-		flex-grow:1;
-		height: 30px;
+		flex-grow: 1;
 
 	}
 
@@ -172,6 +181,7 @@ body {
 	display: flex;
 	flex-flow:row wrap;
 	}
+
 
 	.postaldiv input {
 		height: 30px;
@@ -190,7 +200,7 @@ body {
 	}
 
 	#comments {
-		width: 100%;
+		width: 98%;
 		height:150px;
 		text-align: center;
 	}
@@ -199,7 +209,7 @@ body {
 
 		
 
-	input {
+	.form-contain input {
 		margin-bottom: 10px;
 		width: 150px;
 		height: 20px;
@@ -221,24 +231,42 @@ body {
 		background-color: #282828;
 		margin:30px auto 0 auto;
 		color: #AFB3B3;
+		box-shadow: 0  0 1px 1px grey;
 
 
 	}
 
 
 .pop-up-menu {
-
+	width:240px !important;
 }
 
 .pop-up-menu img{
-padding:0 !important;
+/*padding:0 !important;*/
 height:30% !important;
 width:100% !important;
-margin-bottom:-20px;
-margin-top:-10px;
+/*margin-bottom:-20px;
+margin-top:-10px;*/
 }
 
 /*	MEDIA QUERIES */
+
+
+@media screen and (max-width: 690px) {
+	.cardcontact {
+		width:60%;
+	}
+		.sectionbackground {
+		padding:0;
+	}
+	
+	.cards {
+		padding:10px 0;
+
+
+	}
+}
+
 
 @media screen and (max-width: 550px) {
 	.sectionbackground {
@@ -247,6 +275,7 @@ margin-top:-10px;
 	
 	.cards {
 		padding:10px 0;
+
 
 	}
 

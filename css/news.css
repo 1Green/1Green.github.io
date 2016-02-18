@@ -81,17 +81,21 @@ form {
 }
 
 .card-1, .card-2, .card-3{
-	background-color: white;
+	background-color: #181818;
+  color:#DDD;
 	width: 300px;
 	margin-left:  10px;
   margin-right: 10px;
   margin-top: 20px;
   flex-grow: 1;
+  box-shadow:0px 0px 6px 1px #111;
+  padding:20px;
 
 }
 
 hr {
-  margin: 10px 0px;;
+  margin: 10px 0px;
+  color:#333;
 }
 
 
@@ -134,18 +138,28 @@ hr {
   width: 80%;
 }
 
-.abonnez h1 {
-  font-size: 1.9em;
+.abonnez h3 {
+  font-size: 1.5em;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(200, 44, 44);
+  background-color: #666;
   color: white;
-padding: 0 3px;
- width: 100%;
-  height: 80px;
+padding: 10px 70px;
+ /*width: 100%;*/
+  /*height: 80px;*/
   border-radius: 5px;
+  margin-top:50px;
+  margin-bottom: 20px;
+  color:white;
+}
+
+.abonnez h3:hover {
+  background-color: #CCC;
+  border:1px solid #000;
+  color:#333;
+  transition:all 0.4s ease-in-out;
 }
 
 .abonnez p {
@@ -153,12 +167,14 @@ padding: 0 3px;
 text-align: center;
 width: 100%;
 margin: 30px 0 0 0;
+color:#CCC;
 }
 
 .droite {
   display: flex;
   flex-direction: column;
   padding: 15px 25px;
+  background-color: #282828;
 }
 
 .hover-img-1 {
@@ -203,12 +219,14 @@ font-size: 1.3em;
   height: 240px;
   transition: 0.3s all ease;
   margin-top: 20px;
+box-shadow: 1px 1px 5px 2px black;
 }
 
 .mag:hover {
   transition: 0.3s all ease;
   background-color: rgba(0,0,0,0.4);
   background-blend-mode: darken;
+  box-shadow: 2px 2px 5px 4px black;
 }
 
 .magazine {
@@ -228,6 +246,7 @@ width: 80%;
 max-width: 1000px;
   flex-wrap: wrap;
   margin-top: 20px;
+
 }
 
 .little-mag1 {
@@ -237,14 +256,14 @@ max-width: 1000px;
   height: 240px;
   transition: 0.3s all ease;
   margin-top: 20px;
-
+  box-shadow: 1px 1px 5px 2px black;
 }
 
 .little-mag1:hover {
   transition: 0.3s all ease;
   background-color: rgba(0,0,0,0.4);
   background-blend-mode: darken;
-
+box-shadow: 2px 2px 5px 4px black;
 
 }
 
@@ -256,12 +275,14 @@ max-width: 1000px;
   height: 240px;
   transition: 0.3s all ease;
   margin-top: 20px;
+  box-shadow: 1px 1px 5px 2px black;
 
 }
 .little-mag2:hover {
   transition: 0.3s all ease;
   background-color: rgba(0,0,0,0.4);
   background-blend-mode: darken;
+  box-shadow: 2px 2px 5px 4px black;
 
 
 }
@@ -272,13 +293,13 @@ max-width: 1000px;
   height: 240px;
   transition: 0.3s all ease;
   margin-top: 20px;
-
+  box-shadow: 1px 1px 5px 2px black;
 }
 .little-mag3:hover {
   transition: 0.3s all ease;
   background-color: rgba(0,0,0,0.4);
   background-blend-mode: darken;
-
+box-shadow: 2px 2px 5px 4px black;
 
 }
 .little-mag4 {
@@ -288,13 +309,13 @@ max-width: 1000px;
   height: 240px;
   transition: 0.3s all ease;
   margin-top: 20px;
-
+box-shadow: 1px 1px 5px 2px black;
 }
 .little-mag4:hover {
   transition: 0.3s all ease;
   background-color: rgba(0,0,0,0.4);
   background-blend-mode: darken;
-
+box-shadow: 2px 2px 5px 4px black;
 
 }
 
