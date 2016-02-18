@@ -231,6 +231,7 @@ main a {
   flex-grow: 1;
   text-align: center;
   padding:15px 0px;
+  width: 47%;
 
 }
 .left a {
@@ -242,6 +243,7 @@ main a {
   color: rgb(55, 55, 55);
   text-decoration: none;
   height: 40px;
+  width: 47%;
   font-size: 0.9em;
   flex-grow: 1;
   padding:15px 0px;
@@ -280,6 +282,7 @@ color: white;
   height: 40px;
   font-size: 0.9em;
   flex-grow: 1;
+  width: 47%;
   min-width: 238px;
   padding:15px 0px;
 
