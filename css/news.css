@@ -134,6 +134,7 @@ text-align: center;
 .droite {
   display: flex;
   flex-direction: column;
+  height: 1070px;
 }
 
 .hover-img-1 {
@@ -143,12 +144,7 @@ text-align: center;
 	background-image: url('../images/ph.jpg');
 }.hover-img-3 {
 	background-image: url('../images/pho.jpg');
-}.hover-img-4 {
-	background-image: url('../images/chateau.jpg');
-}.hover-img-5 {
-	background-image: url('../images/summer.jpg');
-}.hover-img-6 {
-	background-image: url('../images/tom-cruise-villa-hd.jpg');
+}
 }
 
 #nosbiens h2 {
