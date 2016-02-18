@@ -16,20 +16,39 @@ body {
 	margin:0;
 	padding:0;
 	font-family: "Raleway", sans serif;
+	background-color:#282828;
 
+}
+
+
+.main-cont {
+	display:flex;
+	justify-content:center;
+	/*align-items:center;*/
 }
 
 .sectionbackground {
-	/*background-color:#282828;*/
 	color:#ecf0f1;
 	display:flex;
+	flex-flow:row wrap;
 	justify-content: center;
+	/*width:80%;*/
+	/*margin:auto;*/
+	padding:50px 0;
 }
+
+
+
 
 /*Cards Agences*/
 
 	.cards {
-		padding-top: 200px;
+		display:flex;
+		flex-flow:column;
+		align-items:center;
+		justify-content:center;
+		padding:45px 40px;
+
 		
 
 
@@ -39,23 +58,19 @@ body {
 
 	.cards-line {
 		display: flex;
-		margin-bottom: 10px;
-		margin-left: 50px;
-
-		
-
+	flex-flow:row wrap;
+	justify-content:center;
 	}
 
 	.cardcontact {
-	width: 44%;
-	height: 250px;
 	border: 3px solid #464646ff;
-	border-radius: 20px;
+	border-radius: 5px;
 	text-align: center;
-	margin-right: 30px;
-	background-color:#ecf0f1;
-	color:#4f5051;
-	/*margin-bottom: 20px;*/
+	margin:15px 15px;
+	background-color:black;
+	color:#AAA;
+	padding:43px;
+	box-shadow:0px 0px 1px 1px white;
 	
 
 
@@ -79,22 +94,25 @@ body {
 
 
 	.form-contain {
-		padding-top: 130px;
-		
-	/*margin-top: 300px;
 	display:flex;
 	justify-content: center;
-	/*padding-bottom: 200px;*/
+	height:100%;
+	margin:auto;
+	align-items:center;
+	padding:30px 40px;
+	background-color:#ecf0f1;
+	border-radius: 3px;
 	}
 
 
 
 	.form {
-
-		height:500px;
+		display:flex;
+		flex-flow:column nowrap;
 		text-align:center;
-		border-radius: 20px;
-		padding:30px;
+		justify-content:center;
+		text-align: center;
+		border-radius: 3px;
 		color:#4f5051;
 	
 	}
@@ -102,69 +120,73 @@ body {
 	
 
 	.menuderoulant {
-		margin-bottom: 30px;
+		margin-bottom: 5px;
 		background-color: ;
+		display:flex;
+		flex-flow:row nowrap;
+	}
+
+	form {
+		display:flex;
+		flex-flow:column nowrap;
+		align-items:flex-start;
+		width:100%;
 	}
 
 	#id_demo {
-		background-color: white;
-		
+		background-color: #282828;
 		color: #C6C5C5;
-	}
-
-
-	.select-wrapper { 
-		display:block; 
-		overflow-x:hidden; 
-		border:1px solid #ccc; 
-		border-radius:3px; 
-		padding:5px; 
-		cursor:pointer; 
-		border-radius: 9px;
-		font-family: "Raleway" sans serif;
-		margin-top: 10px;
-	}
-
-	.select-wrapper select { border:0; 
-		min-width:130%; 
-		cursor:pointer;}
-
-	.select-wrapper:after { 
-		display:block; 
-	 	position:relative; 
-	 	float:right; 
-	 	top:-25px; 
-	 	right:-5px; 
-	 	background-color:#fff; 
-	 	width:32px; 
-	 	text-align:center;
-		margin-bottom:-25px;
+		flex-grow:1;
+		width:100%;
+		margin:6px 0 1px 0;
 
 	}
 
+
+	#nom-prenom {
+		display: flex;
+	}
 
 	#user, #comments, #adress, #postalcode, #city, #mail, #phone
 	{
-		border-radius: 9px;
-
+		border-radius: 3px;
+		margin:5px 0;
+		background-color: #282828;
+		color:white;
 	}
 
 
+	#user:focus, #comments:focus, #adress:focus, #postalcode:focus, #city:focus, #mail:focus, #phone:focus {
+		background-color: #111;
+		outline:none;
+		transition:all 0.3s ease-in-out;
+		}	
 
 	#user {
-		width:98%;
+		flex-grow:1;
 		height: 30px;
 
+	}
+
+	.postaldiv {
+	display: flex;
+	flex-flow:row wrap;
 	}
 
 	.postaldiv input {
-	width: 31.4%;
-	height: 30px;
+		height: 30px;
+		flew-grow:1;
+	}
+
+	.numerodiv {
+		display:flex;
+		flex-flow:row wrap;
+
 	}
 
 	.numerodiv input {
-		width: 48%;
 		height: 30px;
+		flex-grow:1;
 	}
 
 	#comments {
@@ -181,6 +203,7 @@ body {
 		margin-bottom: 10px;
 		width: 150px;
 		height: 20px;
+		flex-grow:1;
 		font-family: "Raleway", sans serif;
 		/*border:1px solid black;*/
 
@@ -189,106 +212,51 @@ body {
 
 	#send {
 		width: 150px;
-		height: 20px;
-		border-radius:10px;
+		height: 30px;
+		border-radius:3px;
+		border:none;
 		text-align: center;
 		font-family: "Raleway" sans serif;
 		font-size:12px;
-		background-color: white;
+		background-color: #282828;
+		margin:30px auto 0 auto;
 		color: #AFB3B3;
 
 
 	}
 
+
+.pop-up-menu {
+
+}
+
+.pop-up-menu img{
+padding:0 !important;
+height:30% !important;
+width:100% !important;
+margin-bottom:-20px;
+margin-top:-10px;
+}
+
 /*	MEDIA QUERIES */
 
-@media screen and (min-width: 850px) {
-
-#city,#adress, #postalcode {
-	width: 30%;
-}
-
-#phone, #mail {
-	width: 45%;
-}
-
-#comments {
-	width: 95%;
-}
-.cards {
-	padding-bottom: 20px;
-}
-}
-
-
-@media screen and (max-width: 849px) {
-
-#city,#adress, #postalcode {
-	width: 30%;
-}
-
-#phone, #mail {
-	width: 45%;
-}
-
-#comments {
-	width: 95%;
-}
-
-}
-
-
-
-@media screen and (max-width: 768px) {
-
+@media screen and (max-width: 550px) {
 	.sectionbackground {
-		display: flex;
-		flex-wrap: wrap;
-		
+		padding:0;
 	}
+	
+	.cards {
+		padding:10px 0;
+
+	}
+
 	.form-contain {
-		padding-top: 20px;
-		
+		/*width:70%;*/
 	}
-
-
-}
-}
-
-
-
-@media screen and (max-width: 400px) {
-.cards-line {
-	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-	margin-bottom: 0px;
-}
-.cardcontact {
-	width: 320px;
-	justify-content: center;
-
-}
-
-.cards {
-		padding-top: 200px;
-		justify-content: center;
-		
-
+	
+	.form {
+		/*width:80%;*/
 	}
-
-#city,#adress, #postalcode {
-	width: 30%;
-}
-
-#phone, #mail {
-	width: 45%;
-}
-
-#comments {
-	width: 95%;
-}
-
 }
 
 
