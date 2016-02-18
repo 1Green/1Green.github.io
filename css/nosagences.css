@@ -141,8 +141,9 @@ main a {
 .agence {
   background-image: url(../images/bureau2.jpg);
   background-size: cover;
+  background-position: bottom;
   width: 87%;
-  height: 300px;
+  height: 450px;
 }
 .container2 {
   margin-top: 70px;
@@ -153,15 +154,17 @@ main a {
 }
 .agence2 {
   background-image: url(../images/bureau1.jpg);
+  background-position: center;
   background-size: cover;
   width: 87%;
-  height: 300px;
+  height: 450px;
 }
 .agence3 {
-  background-image: url(../images/bureau3.jpeg);
+  background-image: url(../images/bureau3.jpg);
+  background-position: center;
   background-size: cover;
   width: 87%;
-  height: 300px;
+  height: 450px;
 }
 .container3 {
   margin-top: 70px;
@@ -172,10 +175,11 @@ main a {
 }
 
 .agence4 {
-  background-image: url(../images/bureau4.jpeg);
+  background-image: url(../images/bureau4.jpg);
+  background-position: center;
   background-size: cover;
   width: 87%;
-  height: 300px;
+  height: 450px;
 }
 .container4 {
   margin-top: 70px;
