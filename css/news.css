@@ -17,7 +17,7 @@ body {
 }
 .gauche {
   background-color: black;
-  min-height: 130vh;
+  min-height: 120vh;
 }
 aside {
   min-width: 20%;
@@ -140,6 +140,7 @@ text-align: center;
 .droite {
   display: flex;
   flex-direction: column;
+  padding: 15px 25px;
 }
 
 .hover-img-1 {
@@ -180,16 +181,16 @@ font-size: 1.3em;
 .mag {
   background-image: url(../images/magazine.jpg);
   background-size: cover;
-  width: 150px;
-  height: 200px;
+  width: 180px;
+  height: 240px;
   transition: 0.3s all ease;
   margin-top: 20px;
 }
 
 .mag:hover {
   transition: 0.3s all ease;
-  width: 225px;
-  height: 300px;
+  background-color: rgba(0,0,0,0.4);
+  background-blend-mode: darken;
 }
 
 .magazine {
@@ -205,7 +206,8 @@ align-items: center;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 100%;
+width: 80%;
+max-width: 1000px;
   flex-wrap: wrap;
   margin-top: 20px;
 }
@@ -213,8 +215,8 @@ align-items: center;
 .little-mag1 {
   background-image: url(../images/magazine2.jpeg);
   background-size: cover;
-  width: 150px;
-  height: 200px;
+  width: 180px;
+  height: 240px;
   transition: 0.3s all ease;
   margin-top: 20px;
 
@@ -222,52 +224,60 @@ align-items: center;
 
 .little-mag1:hover {
   transition: 0.3s all ease;
-  width: 225px;
-  height: 300px;
+  background-color: rgba(0,0,0,0.4);
+  background-blend-mode: darken;
+
+
 }
 
 
 .little-mag2 {
   background-image: url(../images/magazine3.jpeg);
   background-size: cover;
-  width: 150px;
-  height: 200px;
+  width: 180px;
+  height: 240px;
   transition: 0.3s all ease;
   margin-top: 20px;
 
 }
 .little-mag2:hover {
   transition: 0.3s all ease;
-  width: 225px;
-  height: 300px;
+  background-color: rgba(0,0,0,0.4);
+  background-blend-mode: darken;
+
+
 }
 .little-mag3 {
   background-image: url(../images/magazine4.jpeg);
   background-size: cover;
-  width: 150px;
-  height: 200px;
+  width: 180px;
+  height: 240px;
   transition: 0.3s all ease;
   margin-top: 20px;
 
 }
 .little-mag3:hover {
   transition: 0.3s all ease;
-  width: 225px;
-  height: 300px;
+  background-color: rgba(0,0,0,0.4);
+  background-blend-mode: darken;
+
+
 }
 .little-mag4 {
   background-image: url(../images/magazine5.jpeg);
   background-size: cover;
-  width: 150px;
-  height: 200px;
+  width: 180px;
+  height: 240px;
   transition: 0.3s all ease;
   margin-top: 20px;
 
 }
 .little-mag4:hover {
   transition: 0.3s all ease;
-  width: 225px;
-  height: 300px;
+  background-color: rgba(0,0,0,0.4);
+  background-blend-mode: darken;
+
+
 }
 
 
@@ -318,18 +328,20 @@ align-items: center;
   .mag {
     background-image: url(../images/magazine.jpg);
     background-size: cover;
-    max-width: 150px;
-    height: 200px;
+    max-width: 180px;
+    height: 240px;
     transition: 0.3s all ease;
     margin-top: 20px;
     flex-grow: 1;
     padding: 5px;
   }
 
+  .droite {
+    padding: 0;
+  }
+
   .mag:hover {
     transition: 0.3s all ease;
-    width: 150px;
-    height: 200px;
     background-color: rgba(0,0,0,0.4);
     background-blend-mode: darken;
   }
@@ -355,8 +367,8 @@ align-items: center;
   .little-mag1 {
     background-image: url(../images/magazine2.jpeg);
     background-size: cover;
-    max-width: 150px;
-    height: 200px;
+    max-width: 180px;
+    height: 240px;
     transition: 0.3s all ease;
     margin-top: 20px;
     flex-grow: 1;
@@ -366,8 +378,7 @@ align-items: center;
 
   .little-mag1:hover {
     transition: 0.3s all ease;
-    width: 150px;
-    height: 200px;
+
     background-color: rgba(0,0,0,0.4);
     background-blend-mode: darken;
   }
@@ -376,8 +387,8 @@ align-items: center;
   .little-mag2 {
     background-image: url(../images/magazine3.jpeg);
     background-size: cover;
-    max-width: 150px;
-    height: 200px;
+    max-width: 180px;
+    height: 240px;
     transition: 0.3s all ease;
     margin-top: 20px;
     flex-grow: 1;
@@ -386,16 +397,14 @@ align-items: center;
   }
   .little-mag2:hover {
     transition: 0.3s all ease;
-    width: 150px;
-    height: 200px;
     background-color: rgba(0,0,0,0.4);
     background-blend-mode: darken;
   }
   .little-mag3 {
     background-image: url(../images/magazine4.jpeg);
     background-size: cover;
-    max-width: 150px;
-    height: 200px;
+    max-width: 180px;
+    height: 240px;
     transition: 0.3s all ease;
     margin-top: 20px;
     flex-grow: 1;
@@ -404,16 +413,14 @@ align-items: center;
   }
   .little-mag3:hover {
     transition: 0.3s all ease;
-    width: 150px;
-    height: 200px;
     background-color: rgba(0,0,0,0.4);
     background-blend-mode: darken;
   }
   .little-mag4 {
     background-image: url(../images/magazine5.jpeg);
     background-size: cover;
-    max-width: 150px;
-    height: 200px;
+    max-width: 180px;
+    height: 240px;
     transition: 0.3s all ease;
     margin-top: 20px;
     flex-grow: 1;
@@ -425,8 +432,7 @@ align-items: center;
     background-color: rgba(0,0,0,0.4);
     background-blend-mode: darken;
 
-    width: 150px;
-    height: 200px;
+
   }
 
 
