@@ -19,14 +19,14 @@ body {
 .gauche {
 		background-color: black;
 			min-height: 130vh;
-	min-width: 20%;
-
-
+	min-width: 18%;
 }
+
 
 aside {
 	color: #EDE7E7;
-	padding: 80px 30px;
+	padding: 80px 10px;
+	width:80%;
 }
 
 
@@ -40,6 +40,7 @@ form  {
 	padding: 6px 0;
 	border-radius: 6px;
 	margin-top: 10px;
+	width:100%;
 }
 .button1 button{
 	padding: 9px;
@@ -146,14 +147,13 @@ h2, h4 {
 @media screen and (max-width: 768px){
 	aside {
 		height: 180vh;
+		margin-left:10%;
+		width:70%;
 	}
-<<<<<<< HEAD
 	#nav-img-2 {
 		display: none;
 	}
-=======
->>>>>>> 1c52fa75c2273f92a9a93dc71ef8ce311c9e7f2c
-}
+
 
 
 @media screen and (max-width: 735px){
@@ -229,12 +229,11 @@ h2, h4 {
 	display: flex;
 	justify-content: center;
 	}
-<<<<<<< HEAD
+
 	#nav-img-2 {
 		display: none;
 	}
-=======
->>>>>>> 1c52fa75c2273f92a9a93dc71ef8ce311c9e7f2c
+
 	.button1 button {
 		width: 100%;
 	}
