@@ -19,13 +19,12 @@ body {
 .gauche {
 		background-color: black;
 			min-height: 130vh;
-			min-width: 20%;
+	min-width: 20%;
 
 
 }
 
 aside {
-	min-width: 20%;
 	color: #EDE7E7;
 	padding: 80px 30px;
 }
