@@ -46,10 +46,10 @@ aside {
 /*//////// PARTICE CENTRALE ARTICLE///////*/
 
 main {
-	width: 65%;
+	width: 75%;
 	background-color: #181818;
 	box-shadow: 0 0 3px 1px black;
-	padding: 0 7px;
+	padding: 35px 35px;
 
 }
 
@@ -70,7 +70,7 @@ main {
 }
 
 .principale img {
-	width:100%;
+	width:99.7%;
 	height: 600px;
 	margin:0;
 		box-shadow: 0 0 5px 5px black;
@@ -78,7 +78,7 @@ main {
 main img {
 	min-width: 194.8px;
 	width: 19%;
-
+	margin:3.4px;
 	height: 150px;
 }
 
@@ -106,8 +106,53 @@ main img {
 	display: flex;
 }
 
+.sdb:focus{
+	outline:none;
+}
+.piscine:focus {
+	outline:none;
+}
+.cuisine:focus {
+	outline:none;
+}
+.chambre:focus {
+	outline:none;
+}
+.room:focus {
+	outline:none;
+}
 
+.sdb:focus img {
+	box-shadow:0 0 2px 1px white;
+}
+.piscine:focus img {
+	box-shadow:0 0 2px 1px white;
+}
+.cuisine:focus img {
+	box-shadow:0 0 2px 1px white;
+}
+.chambre:focus img {
+	box-shadow:0 0 2px 1px white;
+}
+.room:focus img {
+	box-shadow:0 0 2px 1px white;
+}
 
+.sdb {
+
+}
+.piscine {
+
+}
+.cuisine {
+
+}
+.chambre {
+
+}
+.room {
+
+}
 
 
 /* ///// CACHE LIMAGE /////////*/
