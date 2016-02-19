@@ -68,7 +68,7 @@ form  {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	
+
 }
 
 
@@ -136,13 +136,35 @@ form  {
 .hover-img:hover p {
 	display: block;
 	transition: all 0.2s ease-in-out;
-	
+
 }
 
 
 h2, h4 {
 	margin:0;
 	padding: 5px;
+}
+
+.pages {
+	display: flex;
+	width: 100px;
+	justify-content: space-around;
+	color: white;
+	margin: auto;
+	margin-top: 20px;
+}
+
+.pages p {
+	margin: 5px;
+	padding: 0;
+	color: #CCCCCC;
+}
+
+.pages a {
+	text-decoration: none;
+	color: white;
+	margin: 5px;
+color: #CCCCCC;
 }
 
 /*LES MEDIAS QUERIES*/
