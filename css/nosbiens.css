@@ -164,7 +164,7 @@ h2, h4 {
 	text-decoration: none;
 	color: white;
 	margin: 5px;
-color: #CCCCCC;
+	color: #CCCCCC;
 }
 
 /*LES MEDIAS QUERIES*/
@@ -185,7 +185,11 @@ color: #CCCCCC;
 @media screen and (max-width: 735px){
 	#nosbiens {
 		display: flex;
-		flex-direction: column;
+		flex-flow: column
+	}
+
+	.pages {
+		display:none;
 	}
 
 	aside h2 {

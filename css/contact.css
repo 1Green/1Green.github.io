@@ -65,6 +65,7 @@ body {
 
 	.cardcontact {
 	border: 3px solid #464646ff;
+	width:220px;
 	border-radius: 5px;
 	text-align: center;
 	margin:25px 25px;
@@ -100,7 +101,7 @@ body {
 	height:100%;
 	margin:auto;
 	align-items:center;
-	padding:30px 40px;
+	padding:51px 40px;
 	background-color:rgba(1,1,1,0.8);
 	border-radius: 3px;
 	box-shadow: 0 0 1px 2px grey inset;
