@@ -34,7 +34,7 @@ nav {
   background:none;
   box-shadow:none;
   position:static;
-  margin-left:25%;
+  margin-left:75%;
   padding:0;
 }
 
@@ -181,6 +181,14 @@ p {line-height: 150%;
 }
 
 
+@media screen and (max-width:1200px) {
+
+#nav-img-2 {
+  display:none;
+}
+
+}
+
 @media screen and (max-width:768px) {
 
 .pop-up-menu {
@@ -201,9 +209,7 @@ p {line-height: 150%;
 .pop-up-menu input {
   margin:5px 5% 0 5%;
 }  
-#nav-img-2 {
-  display:none;
-}
+
 }
 
 @media screen and (max-width:359px) {
